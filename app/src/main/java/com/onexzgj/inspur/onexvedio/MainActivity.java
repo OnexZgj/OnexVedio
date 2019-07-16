@@ -1,13 +1,33 @@
 package com.onexzgj.inspur.onexvedio;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.onexzgj.onexlibrary.base.BaseContract;
+import com.onexzgj.onexlibrary.base.BaseMvpActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseMvpActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected BaseContract.BasePresenter initPresenter() {
+        return null;
+    }
+
+    @Override
+    protected void initView() {
+
+    }
+
+    @Override
+    protected void initData() {
+
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    public void onRetry() {
+
     }
 }
