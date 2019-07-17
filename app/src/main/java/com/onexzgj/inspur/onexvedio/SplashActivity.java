@@ -43,14 +43,14 @@ public class SplashActivity extends BaseActivity {
 
 
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.1f,1.0f);
-        alphaAnimation.setDuration(1000);
-        ScaleAnimation scaleAnimation =new ScaleAnimation(0.1f,1.0f,0.1f,1.0f,ScaleAnimation.RELATIVE_TO_SELF,0.5f,ScaleAnimation.RELATIVE_TO_SELF,0.5f);
-        scaleAnimation.setDuration(1000);
+        alphaAnimation.setDuration(1500);
+        ScaleAnimation scaleAnimation =new ScaleAnimation(0.8f,1.2f,0.8f,1.2f,ScaleAnimation.RELATIVE_TO_SELF,0.5f,ScaleAnimation.RELATIVE_TO_SELF,0.5f);
+        scaleAnimation.setDuration(1500);
 
         AnimationSet animationSet =new AnimationSet(true);
         animationSet.addAnimation(alphaAnimation);
         animationSet.addAnimation(scaleAnimation);
-        animationSet.setDuration(1000);
+        animationSet.setDuration(1500);
         ivAsSplash.startAnimation(animationSet);
 
         animationSet.setAnimationListener(new Animation.AnimationListener() {
