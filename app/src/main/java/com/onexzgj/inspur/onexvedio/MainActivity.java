@@ -65,21 +65,18 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
 
         switch (menuItem.getItemId()) {
             case R.id.navigation_home:
-                //首页
                 switchFragment(0);
                 break;
             case R.id.navigation_attention:
                 switchFragment(1);
-
-                break;
-            case R.id.navigation_me:
-                switchFragment(2);
-
                 break;
             case R.id.navigation_find:
-                switchFragment(3);
+                switchFragment(2);
                 break;
+            case R.id.navigation_me:
+                switchFragment(3);
 
+                break;
         }
 
         return true;
@@ -98,7 +95,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             //Gravity.START部分机型崩溃java.lang.IllegalArgumentException: Invalid slide direction
             slideTransition = new Slide(Gravity.LEFT);
-            slideTransition.setDuration(700);
+            slideTransition.setDuration(500);
             targetFg.setEnterTransition(slideTransition);
             targetFg.setExitTransition(slideTransition);
         }
