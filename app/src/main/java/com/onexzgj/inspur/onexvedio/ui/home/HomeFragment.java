@@ -23,7 +23,6 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     RecyclerView rvFhHome;
     @BindView(R.id.refreshLayout)
     SwipeRefreshLayout refreshLayout;
-    Unbinder unbinder;
 
     public static HomeFragment getInstance() {
         return new HomeFragment();

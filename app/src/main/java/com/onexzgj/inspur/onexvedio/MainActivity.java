@@ -140,15 +140,19 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         switch (menuItem.getItemId()) {
             case R.id.navigation_home:
                 switchFragment(0);
+                setToolbarTitle("首页");
                 break;
             case R.id.navigation_attention:
                 switchFragment(1);
+                setToolbarTitle("关注");
                 break;
             case R.id.navigation_find:
                 switchFragment(2);
+                setToolbarTitle("发现");
                 break;
             case R.id.navigation_me:
                 switchFragment(3);
+                setToolbarTitle("我的");
                 break;
         }
 
