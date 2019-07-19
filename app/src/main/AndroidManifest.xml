@@ -18,7 +18,7 @@
         android:name="com.onexzgj.onexlibrary.GlobalApplication">
 
 
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.activity.MainActivity"/>
 
         <activity android:name=".SplashActivity">
 
@@ -29,6 +29,8 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".ui.activity.VedioActivity"/>
     </application>
 
 </manifest>

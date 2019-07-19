@@ -1,4 +1,4 @@
-package com.onexzgj.inspur.onexvedio;
+package com.onexzgj.inspur.onexvedio.ui.activity;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -14,6 +14,7 @@ import android.view.Gravity;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
+import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.ui.attention.AttentionFragment;
 import com.onexzgj.inspur.onexvedio.ui.find.FindFragment;
 import com.onexzgj.inspur.onexvedio.ui.home.HomeFragment;

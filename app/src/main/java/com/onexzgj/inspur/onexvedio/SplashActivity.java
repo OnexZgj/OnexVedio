@@ -9,6 +9,7 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.onexzgj.inspur.onexvedio.ui.activity.MainActivity;
 import com.onexzgj.onexlibrary.base.BaseActivity;
 
 import butterknife.BindView;

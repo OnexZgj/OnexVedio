@@ -71,6 +71,7 @@ dependencies {
     //alibabajson
     api 'com.alibaba:fastjson:1.2.48'
 
+
     //    api 'com.miomin:shswiperefreshlayout:1.3.0'
     implementation project(':LitePal-master')
 }
