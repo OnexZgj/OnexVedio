@@ -79,23 +79,13 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
 
             permissions.add(Manifest.permission.INTERNET);
             permissions.add(Manifest.permission.ACCESS_NETWORK_STATE);
-            // 定位精确位置
-            if(checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
-                permissions.add(Manifest.permission.ACCESS_FINE_LOCATION);
-            }
-            if(checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
-                permissions.add(Manifest.permission.ACCESS_COARSE_LOCATION);
-            }
+
             /*
              * 读写权限和电话状态权限非必要权限(建议授予)只会申请一次，用户同意或者禁止，只会弹一次
              */
             // 读写权限
             if (addPermission(permissions, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
                 permissionInfo += "Manifest.permission.WRITE_EXTERNAL_STORAGE Deny \n";
-            }
-            // 读取电话状态权限
-            if (addPermission(permissions, Manifest.permission.READ_PHONE_STATE)) {
-                permissionInfo += "Manifest.permission.READ_PHONE_STATE Deny \n";
             }
 
             if (permissions.size() > 0) {
@@ -124,7 +114,6 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
     @TargetApi(23)
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        // TODO Auto-generated method stub
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
     }
