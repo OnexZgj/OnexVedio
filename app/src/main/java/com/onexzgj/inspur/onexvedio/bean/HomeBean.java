@@ -6,9 +6,9 @@ public class HomeBean {
 
 
     /**
-     * issueList : [{"releaseTime":1563411600000,"type":"morning","date":1563411600000,"publishTime":1563411600000,"itemList":[{"type":"banner2","data":{"dataType":"Banner","id":0,"title":"","description":"","image":"http://img.kaiyanapp.com/eef24aa10ab6cf17b5a512943ec22053.jpeg?imageMogr2/quality/60/format/jpg","actionUrl":"","adTrack":null,"shade":false,"label":null,"labelList":null,"header":null,"autoPlay":false},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":164122,"title":"你愿意花 15 分钟看地球一年的奇迹与灾难吗？","description":"这部在纳西电影节展映的获奖短片「A Year Along the Geostationary Orbit」把地球的美、脆弱和灾难带到你眼前。取景自日本最先进的卫星之一\u2014\u2014气象卫星向日葵 8 号，在距离你头顶 35786 千米的地方观察着这个星球的日与夜。From Felix Dierich","library":"DAILY","tags":[{"id":10,"name":"跟着开眼看世界","actionUrl":"eyepetizer://tag/10/?title=%E8%B7%9F%E7%9D%80%E5%BC%80%E7%9C%BC%E7%9C%8B%E4%B8%96%E7%95%8C","adTrack":null,"desc":"去你想去的地方，发现世界的美","bgPicture":"http://img.kaiyanapp.com/7ea328a893aa1f092b9328a53494a267.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/50dab5468ecd2dbe5eb99dab5d608a0a.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":546,"name":"宇宙","actionUrl":"eyepetizer://tag/546/?title=%E5%AE%87%E5%AE%99","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/7052c0f6e4267111b023d2541b1a7f07.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/7052c0f6e4267111b023d2541b1a7f07.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1024,"name":"科技","actionUrl":"eyepetizer://tag/1024/?title=%E7%A7%91%E6%8A%80","adTrack":null,"desc":"新知识与一切先进生产力","bgPicture":"http://img.kaiyanapp.com/7e326064edc565ac6355921cfe4b3e46.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/810adad06df812462bb0e00501fa679c.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":713,"shareCount":197,"replyCount":33},"resourceType":"video","slogan":"震撼获奖短片，卫星视角的日与夜","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"科技","author":{"id":2171,"icon":"http://img.kaiyanapp.com/0117b9108c7cff43700db8af5e24f2bf.jpeg","name":"开眼科技精选","description":"新知识与一切先进生产力","link":"","latestReleaseTime":1563411600000,"videoNum":205,"adTrack":null,"follow":{"itemType":"author","itemId":2171,"followed":false},"shield":{"itemType":"author","itemId":2171,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/c9b12a153959c76bdfa90a650b45e4aa.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":963,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=164122","forWeibo":"http://www.eyepetizer.net/detail.html?vid=164122&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411600000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":270027029},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":270027029},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":270027029}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":416543933},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":416543933},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":416543933}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":"浸入式体验\n35786 km above Earth, travelling at more than 11000 km/h, Himawari-8, Japan's most advanced meteorological satellite, observes the Eastern Hemisphere day and night.","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"这部在纳西电影节展映的获奖短片「A Year Along the Geostationary Orbit」把地球的美、脆弱和灾难带到你眼前。取景自日本最先进的卫星之一\u2014\u2014气象卫星向日葵 8 号，在距离你头顶 35786 千米的地方观察着这个星球的日与夜。From Felix Dierich","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":167026,"title":"逃离机械人生，做一场电影之名的白日梦","description":"我们为什么要去电影院看电影？如果说旅行是为了在陌生的环境撒野，看电影就是在一场白日梦里的意淫。这部电影公司 cinemark hoyts 的广告想和你说的是：生活总是要有一些期待，996 给不了你的，就去电影院看看吧。From DossierNet","library":"DAILY","tags":[{"id":748,"name":"这些广告超有梗","actionUrl":"eyepetizer://tag/748/?title=%E8%BF%99%E4%BA%9B%E5%B9%BF%E5%91%8A%E8%B6%85%E6%9C%89%E6%A2%97","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/9056413cfeffaf0c841d894390aa8e08.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/ff0f6d0ad5f4b6211a3f746aaaffd916.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":134,"name":"反转","actionUrl":"eyepetizer://tag/134/?title=%E5%8F%8D%E8%BD%AC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":758,"name":"欧美广告","actionUrl":"eyepetizer://tag/758/?title=%E6%AC%A7%E7%BE%8E%E5%B9%BF%E5%91%8A","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/4347ee94f8ae98a86f2913db3b8638f3.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/8494d3626c41f8e8cb6316767cc0f573.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":16,"name":"广告","actionUrl":"eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A","adTrack":null,"desc":"为广告人的精彩创意点赞","bgPicture":"http://img.kaiyanapp.com/e41e74fe73882b552de00d95d56748d2.jpeg?imageMogr2/quality/60","headerImage":"http://img.kaiyanapp.com/3054658dbd559ac42c4c282e9cab7a32.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":85,"shareCount":46,"replyCount":5},"resourceType":"video","slogan":"996 不能给你的，就去电影院吧","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"广告","author":{"id":2162,"icon":"http://img.kaiyanapp.com/98beab66d3885a139b54f21e91817c4f.jpeg","name":"开眼广告精选","description":"为广告人的精彩创意点赞","link":"","latestReleaseTime":1563411601000,"videoNum":1172,"adTrack":null,"follow":{"itemType":"author","itemId":2162,"followed":false},"shield":{"itemType":"author","itemId":2162,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/abeb666d38a5d7437a4a8e0b80d0381c.png?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":158,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=167026","forWeibo":"http://www.eyepetizer.net/detail.html?vid=167026&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411601000,"playInfo":[{"height":358,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":5345967},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":5345967},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":5345967}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1720,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":12319870},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":12319870},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":12319870}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"电影就是一场社畜的白日梦意淫","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"我们为什么要去电影院看电影？如果说旅行是为了在陌生的环境撒野，看电影就是在一场白日梦里的意淫。这部电影公司 cinemark hoyts 的广告想和你说的是：生活总是要有一些期待，996 给不了你的，就去电影院看看吧。From DossierNet","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":166550,"title":"多米诺式爱情故事：爱上一只鸟的猫","description":"在解决了前几日的播放 bug 之后，实在舍不得永远下线这条短片。我们知道这是个旧片子，但还是想放给你看。以下是原简介：好故事是每一个优秀作品的开始。导演 Jamille van Wijngaarden 用 2 分钟给你讲一个笨拙又可爱的故事。这部「Catastrophe」的灵感来自导演本人的养猫经历：「我家的猫很粘人，但每次来找我求抱抱的时候，都会把路上的一切障碍打翻」。如果说乡村里会发生狼爱上羊的童话，对于城市来说，就是猫咪爱上小鸟，但结局就不一定保证美好了\u2026\u2026 From keplerfilm.","library":"DAILY","tags":[{"id":14,"name":"动画梦工厂","actionUrl":"eyepetizer://tag/14/?title=%E5%8A%A8%E7%94%BB%E6%A2%A6%E5%B7%A5%E5%8E%82","adTrack":null,"desc":"有趣的人永远不缺童心","bgPicture":"http://img.kaiyanapp.com/afb9e7d7f061d10ade5ebcb524dc8679.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/f9eae3e0321fa1e99a7b38641b5536a2.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":504,"name":"笑cry","actionUrl":"eyepetizer://tag/504/?title=%E7%AC%91cry","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/3d3cb19d13cc16e8c3c2eddb12284fa3.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/177986653f12273f6d55edafe856ffe3.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":134,"name":"反转","actionUrl":"eyepetizer://tag/134/?title=%E5%8F%8D%E8%BD%AC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1023,"name":"动画","actionUrl":"eyepetizer://tag/1023/?title=%E5%8A%A8%E7%94%BB","adTrack":null,"desc":"有趣的人永远不缺童心","bgPicture":"http://img.kaiyanapp.com/349cbd33cdf71fc74d5e9c7a00b444fd.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/208aa67386c045497389f015ae28dd29.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":124,"shareCount":72,"replyCount":9},"resourceType":"video","slogan":"城市里的狼爱上羊，是猫爱上小鸟","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"动画","author":{"id":2170,"icon":"http://img.kaiyanapp.com/482c741c06644f5566c7218096dbaf26.jpeg","name":"开眼动画精选","description":"有趣的人永远不缺童心","link":"","latestReleaseTime":1563411603000,"videoNum":718,"adTrack":null,"follow":{"itemType":"author","itemId":2170,"followed":false},"shield":{"itemType":"author","itemId":2170,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/a95374ab52beba6d6753a9faa9c07b6a.png?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":135,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=166550","forWeibo":"http://www.eyepetizer.net/detail.html?vid=166550&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411603000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":11781720},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":11781720},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":11781720}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":1080,"width":1920,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":49196471},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":49196471},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":49196471}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"，猫吃鸟，「Catastrophe」在多伦多电影节初次展映。「我家的猫每次来求抱抱的时候，都会打翻些什么」。场景的灵感来自\nCatastrophe\n猫和鸟是前世情人。我想把你扑倒，狠狠亲一口\n","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"在解决了前几日的播放 bug 之后，实在舍不得永远下线这条短片。我们知道这是个旧片子，但还是想放给你看。以下是原简介：好故事是每一个优秀作品的开始。导演 Jamille van Wijngaarden 用 2 分钟给你讲一个笨拙又可爱的故事。这部「Catastrophe」的灵感来自导演本人的养猫经历：「我家的猫很粘人，但每次来找我求抱抱的时候，都会把路上的一切障碍打翻」。如果说乡村里会发生狼爱上羊的童话，对于城市来说，就是猫咪爱上小鸟，但结局就不一定保证美好了\u2026\u2026 From keplerfilm.","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1}],"count":3}]
-     * nextPageUrl : http://baobab.kaiyanapp.com/api/v2/feed?date=1563325200000&num=1
-     * nextPublishTime : 1563498000000
+     * issueList : [{"releaseTime":1563757200000,"type":"morning","date":1563757200000,"publishTime":1563757200000,"itemList":[{"type":"video","data":{"dataType":"VideoBeanForClient","id":51164,"title":"给世界的警告：一个悖论正在撕裂我们","description":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","library":"DAILY","tags":[{"id":744,"name":"每日创意灵感","actionUrl":"eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":580,"name":"人性","actionUrl":"eyepetizer://tag/580/?title=%E4%BA%BA%E6%80%A7","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":482,"name":"人生感悟","actionUrl":"eyepetizer://tag/482/?title=%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":2,"name":"创意","actionUrl":"eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/1b457058cf2b317304ff9f70543c040d.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/fdefdb34cbe3d2ac9964d306febe9025.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":578,"shareCount":200,"replyCount":13},"resourceType":"video","slogan":"WORKING TO SPEND，工作是为了更好地消费","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"创意","author":{"id":2161,"icon":"http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg","name":"开眼创意精选","description":"技术与审美结合，探索视觉的无限可能","link":"","latestReleaseTime":1563757200000,"videoNum":695,"adTrack":null,"follow":{"itemType":"author","itemId":2161,"followed":false},"shield":{"itemType":"author","itemId":2161,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":219,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=51164","forWeibo":"http://wandou.im/3obmeq"},"releaseTime":1563757200000,"playInfo":[{"height":482,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1278,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":35943994},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":35943994},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":35943994}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":165703,"title":"现在是时候扔掉 4G，换 5G 手机了吗？","description":"2019 年可以说是 5G 元年，但目前 5G 距离广泛使用还有不少难题。当下使用最多的 4G 在本质上是 3G 网络的升级版，只是速度更快、传输范围更广。但是 5G 系统更像是高速低延迟的 Wi-Fi 系统，是一种窄范围的高速传输。 这也是 5G 尚未普及的最重要原因之一。From MrMobile","library":"DAILY","tags":[{"id":869,"name":"数码测评","actionUrl":"eyepetizer://tag/869/?title=%E6%95%B0%E7%A0%81%E6%B5%8B%E8%AF%84","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/23cb257bd31642bfd78dd5325565bce4.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/23cb257bd31642bfd78dd5325565bce4.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":866,"name":"前沿科技","actionUrl":"eyepetizer://tag/866/?title=%E5%89%8D%E6%B2%BF%E7%A7%91%E6%8A%80","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/190fe9fb29c4319d3954f1e0e56ca125.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/190fe9fb29c4319d3954f1e0e56ca125.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1024,"name":"科技","actionUrl":"eyepetizer://tag/1024/?title=%E7%A7%91%E6%8A%80","adTrack":null,"desc":"新知识与一切先进生产力","bgPicture":"http://img.kaiyanapp.com/7e326064edc565ac6355921cfe4b3e46.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/810adad06df812462bb0e00501fa679c.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":101,"shareCount":69,"replyCount":5},"resourceType":"video","slogan":"使用 5G 手机一天后，我决定放弃","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"科技","author":{"id":2171,"icon":"http://img.kaiyanapp.com/0117b9108c7cff43700db8af5e24f2bf.jpeg","name":"开眼科技精选","description":"新知识与一切先进生产力","link":"","latestReleaseTime":1563757205000,"videoNum":207,"adTrack":null,"follow":{"itemType":"author","itemId":2171,"followed":false},"shield":{"itemType":"author","itemId":2171,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/547d80cd3787ac2f1b77614fe3898ff2.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":512,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=165703","forWeibo":"http://www.eyepetizer.net/detail.html?vid=165703&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563757205000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":51948447},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":51948447},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":51948447}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":101947242},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":101947242},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":101947242}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"2019 年可以说是 5G 元年，但目前 5G 距离广泛使用还有不少难题。当下使用最多的 4G 在本质上是 3G 网络的升级版，只是速度更快、传输范围更广。但是 5G 系统更像是高速低延迟的 Wi-Fi 系统，是一种窄范围的高速传输。 这也是 5G 尚未普及的最重要原因之一。From MrMobile","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":167205,"title":"手机低头族福利 App：便便侦测器","description":"解决强需求的「便便侦测器」，帮你更加专心玩手机哦～ ","library":"DAILY","tags":[{"id":146,"name":"666","actionUrl":"eyepetizer://tag/146/?title=666","adTrack":null,"desc":null,"bgPicture":"https://i.ytimg.com/vi/MKWWhf8RAV8/maxresdefault.jpg","headerImage":"http://img.kaiyanapp.com/522f7e51abb07a4a4438b82ee54174a4.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":140,"name":"搞笑","actionUrl":"eyepetizer://tag/140/?title=%E6%90%9E%E7%AC%91","adTrack":null,"desc":"哈哈哈哈哈哈哈哈","bgPicture":"http://img.kaiyanapp.com/f787d5053443499e8d787911cd8b3876.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/f2b803d3c383bba5a3888b2709160b6e.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":172,"name":"什么鬼","actionUrl":"eyepetizer://tag/172/?title=%E4%BB%80%E4%B9%88%E9%AC%BC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/e6b5568e865b26f3f84270e613955e59.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/e6b5568e865b26f3f84270e613955e59.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":65,"shareCount":29,"replyCount":4},"resourceType":"video","slogan":"又一款解决强需求产品发布（才怪）","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"搞笑","author":{"id":4458,"icon":"http://img.kaiyanapp.com/2b775c7d05db341a5c834087d1e14bf0.png?imageMogr2/quality/60/format/jpg","name":"Comedy Central","description":"喜剧中心是美国有线及卫星电视中的一个电视频道，专播喜剧及幽默节目。 ","link":"","latestReleaseTime":1563757206000,"videoNum":9,"adTrack":null,"follow":{"itemType":"author","itemId":4458,"followed":false},"shield":{"itemType":"author","itemId":4458,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/15e96e7dcb279bf0c0e7fbf25410f655.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":57,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=167205","forWeibo":"http://www.eyepetizer.net/detail.html?vid=167205&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563757206000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":5143160},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":5143160},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":5143160}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":9218260},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":9218260},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":9218260}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":null,"ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"解决强需求的「便便侦测器」，帮你更加专心玩手机哦～ ","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1}],"count":3}]
+     * nextPageUrl : http://baobab.kaiyanapp.com/api/v2/feed?date=1563670800000&num=1
+     * nextPublishTime : 1563843600000
      * newestIssueType : morning
      * dialog : null
      */
@@ -61,11 +61,11 @@ public class HomeBean {
 
     public static class IssueListBean {
         /**
-         * releaseTime : 1563411600000
+         * releaseTime : 1563757200000
          * type : morning
-         * date : 1563411600000
-         * publishTime : 1563411600000
-         * itemList : [{"type":"banner2","data":{"dataType":"Banner","id":0,"title":"","description":"","image":"http://img.kaiyanapp.com/eef24aa10ab6cf17b5a512943ec22053.jpeg?imageMogr2/quality/60/format/jpg","actionUrl":"","adTrack":null,"shade":false,"label":null,"labelList":null,"header":null,"autoPlay":false},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":164122,"title":"你愿意花 15 分钟看地球一年的奇迹与灾难吗？","description":"这部在纳西电影节展映的获奖短片「A Year Along the Geostationary Orbit」把地球的美、脆弱和灾难带到你眼前。取景自日本最先进的卫星之一\u2014\u2014气象卫星向日葵 8 号，在距离你头顶 35786 千米的地方观察着这个星球的日与夜。From Felix Dierich","library":"DAILY","tags":[{"id":10,"name":"跟着开眼看世界","actionUrl":"eyepetizer://tag/10/?title=%E8%B7%9F%E7%9D%80%E5%BC%80%E7%9C%BC%E7%9C%8B%E4%B8%96%E7%95%8C","adTrack":null,"desc":"去你想去的地方，发现世界的美","bgPicture":"http://img.kaiyanapp.com/7ea328a893aa1f092b9328a53494a267.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/50dab5468ecd2dbe5eb99dab5d608a0a.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":546,"name":"宇宙","actionUrl":"eyepetizer://tag/546/?title=%E5%AE%87%E5%AE%99","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/7052c0f6e4267111b023d2541b1a7f07.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/7052c0f6e4267111b023d2541b1a7f07.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1024,"name":"科技","actionUrl":"eyepetizer://tag/1024/?title=%E7%A7%91%E6%8A%80","adTrack":null,"desc":"新知识与一切先进生产力","bgPicture":"http://img.kaiyanapp.com/7e326064edc565ac6355921cfe4b3e46.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/810adad06df812462bb0e00501fa679c.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":713,"shareCount":197,"replyCount":33},"resourceType":"video","slogan":"震撼获奖短片，卫星视角的日与夜","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"科技","author":{"id":2171,"icon":"http://img.kaiyanapp.com/0117b9108c7cff43700db8af5e24f2bf.jpeg","name":"开眼科技精选","description":"新知识与一切先进生产力","link":"","latestReleaseTime":1563411600000,"videoNum":205,"adTrack":null,"follow":{"itemType":"author","itemId":2171,"followed":false},"shield":{"itemType":"author","itemId":2171,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/c9b12a153959c76bdfa90a650b45e4aa.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/8a299ac1dd09bdb0343cf6a7525a790c.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":963,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=164122","forWeibo":"http://www.eyepetizer.net/detail.html?vid=164122&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411600000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":270027029},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":270027029},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":270027029}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":416543933},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":416543933},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":416543933}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=164122&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":"浸入式体验\n35786 km above Earth, travelling at more than 11000 km/h, Himawari-8, Japan's most advanced meteorological satellite, observes the Eastern Hemisphere day and night.","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"这部在纳西电影节展映的获奖短片「A Year Along the Geostationary Orbit」把地球的美、脆弱和灾难带到你眼前。取景自日本最先进的卫星之一\u2014\u2014气象卫星向日葵 8 号，在距离你头顶 35786 千米的地方观察着这个星球的日与夜。From Felix Dierich","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":167026,"title":"逃离机械人生，做一场电影之名的白日梦","description":"我们为什么要去电影院看电影？如果说旅行是为了在陌生的环境撒野，看电影就是在一场白日梦里的意淫。这部电影公司 cinemark hoyts 的广告想和你说的是：生活总是要有一些期待，996 给不了你的，就去电影院看看吧。From DossierNet","library":"DAILY","tags":[{"id":748,"name":"这些广告超有梗","actionUrl":"eyepetizer://tag/748/?title=%E8%BF%99%E4%BA%9B%E5%B9%BF%E5%91%8A%E8%B6%85%E6%9C%89%E6%A2%97","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/9056413cfeffaf0c841d894390aa8e08.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/ff0f6d0ad5f4b6211a3f746aaaffd916.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":134,"name":"反转","actionUrl":"eyepetizer://tag/134/?title=%E5%8F%8D%E8%BD%AC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":758,"name":"欧美广告","actionUrl":"eyepetizer://tag/758/?title=%E6%AC%A7%E7%BE%8E%E5%B9%BF%E5%91%8A","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/4347ee94f8ae98a86f2913db3b8638f3.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/8494d3626c41f8e8cb6316767cc0f573.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":16,"name":"广告","actionUrl":"eyepetizer://tag/16/?title=%E5%B9%BF%E5%91%8A","adTrack":null,"desc":"为广告人的精彩创意点赞","bgPicture":"http://img.kaiyanapp.com/e41e74fe73882b552de00d95d56748d2.jpeg?imageMogr2/quality/60","headerImage":"http://img.kaiyanapp.com/3054658dbd559ac42c4c282e9cab7a32.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":85,"shareCount":46,"replyCount":5},"resourceType":"video","slogan":"996 不能给你的，就去电影院吧","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"广告","author":{"id":2162,"icon":"http://img.kaiyanapp.com/98beab66d3885a139b54f21e91817c4f.jpeg","name":"开眼广告精选","description":"为广告人的精彩创意点赞","link":"","latestReleaseTime":1563411601000,"videoNum":1172,"adTrack":null,"follow":{"itemType":"author","itemId":2162,"followed":false},"shield":{"itemType":"author","itemId":2162,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/abeb666d38a5d7437a4a8e0b80d0381c.png?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cd3e6b8cd282cd1876ec494d68083ee8.png?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":158,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=167026","forWeibo":"http://www.eyepetizer.net/detail.html?vid=167026&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411601000,"playInfo":[{"height":358,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":5345967},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":5345967},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":5345967}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1720,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":12319870},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":12319870},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":12319870}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167026&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"电影就是一场社畜的白日梦意淫","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"我们为什么要去电影院看电影？如果说旅行是为了在陌生的环境撒野，看电影就是在一场白日梦里的意淫。这部电影公司 cinemark hoyts 的广告想和你说的是：生活总是要有一些期待，996 给不了你的，就去电影院看看吧。From DossierNet","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":166550,"title":"多米诺式爱情故事：爱上一只鸟的猫","description":"在解决了前几日的播放 bug 之后，实在舍不得永远下线这条短片。我们知道这是个旧片子，但还是想放给你看。以下是原简介：好故事是每一个优秀作品的开始。导演 Jamille van Wijngaarden 用 2 分钟给你讲一个笨拙又可爱的故事。这部「Catastrophe」的灵感来自导演本人的养猫经历：「我家的猫很粘人，但每次来找我求抱抱的时候，都会把路上的一切障碍打翻」。如果说乡村里会发生狼爱上羊的童话，对于城市来说，就是猫咪爱上小鸟，但结局就不一定保证美好了\u2026\u2026 From keplerfilm.","library":"DAILY","tags":[{"id":14,"name":"动画梦工厂","actionUrl":"eyepetizer://tag/14/?title=%E5%8A%A8%E7%94%BB%E6%A2%A6%E5%B7%A5%E5%8E%82","adTrack":null,"desc":"有趣的人永远不缺童心","bgPicture":"http://img.kaiyanapp.com/afb9e7d7f061d10ade5ebcb524dc8679.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/f9eae3e0321fa1e99a7b38641b5536a2.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":504,"name":"笑cry","actionUrl":"eyepetizer://tag/504/?title=%E7%AC%91cry","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/3d3cb19d13cc16e8c3c2eddb12284fa3.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/177986653f12273f6d55edafe856ffe3.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":134,"name":"反转","actionUrl":"eyepetizer://tag/134/?title=%E5%8F%8D%E8%BD%AC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/c4daeee307e8efca77e095faaf5a5ab9.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1023,"name":"动画","actionUrl":"eyepetizer://tag/1023/?title=%E5%8A%A8%E7%94%BB","adTrack":null,"desc":"有趣的人永远不缺童心","bgPicture":"http://img.kaiyanapp.com/349cbd33cdf71fc74d5e9c7a00b444fd.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/208aa67386c045497389f015ae28dd29.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":124,"shareCount":72,"replyCount":9},"resourceType":"video","slogan":"城市里的狼爱上羊，是猫爱上小鸟","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"动画","author":{"id":2170,"icon":"http://img.kaiyanapp.com/482c741c06644f5566c7218096dbaf26.jpeg","name":"开眼动画精选","description":"有趣的人永远不缺童心","link":"","latestReleaseTime":1563411603000,"videoNum":718,"adTrack":null,"follow":{"itemType":"author","itemId":2170,"followed":false},"shield":{"itemType":"author","itemId":2170,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/a95374ab52beba6d6753a9faa9c07b6a.png?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/010b338617da63da451c5b74a6f016e8.png?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":135,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=166550","forWeibo":"http://www.eyepetizer.net/detail.html?vid=166550&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563411603000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":11781720},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":11781720},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":11781720}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":1080,"width":1920,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":49196471},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":49196471},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":49196471}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=166550&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"，猫吃鸟，「Catastrophe」在多伦多电影节初次展映。「我家的猫每次来求抱抱的时候，都会打翻些什么」。场景的灵感来自\nCatastrophe\n猫和鸟是前世情人。我想把你扑倒，狠狠亲一口\n","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563411600000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"在解决了前几日的播放 bug 之后，实在舍不得永远下线这条短片。我们知道这是个旧片子，但还是想放给你看。以下是原简介：好故事是每一个优秀作品的开始。导演 Jamille van Wijngaarden 用 2 分钟给你讲一个笨拙又可爱的故事。这部「Catastrophe」的灵感来自导演本人的养猫经历：「我家的猫很粘人，但每次来找我求抱抱的时候，都会把路上的一切障碍打翻」。如果说乡村里会发生狼爱上羊的童话，对于城市来说，就是猫咪爱上小鸟，但结局就不一定保证美好了\u2026\u2026 From keplerfilm.","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1}]
+         * date : 1563757200000
+         * publishTime : 1563757200000
+         * itemList : [{"type":"video","data":{"dataType":"VideoBeanForClient","id":51164,"title":"给世界的警告：一个悖论正在撕裂我们","description":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","library":"DAILY","tags":[{"id":744,"name":"每日创意灵感","actionUrl":"eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":580,"name":"人性","actionUrl":"eyepetizer://tag/580/?title=%E4%BA%BA%E6%80%A7","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":482,"name":"人生感悟","actionUrl":"eyepetizer://tag/482/?title=%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":2,"name":"创意","actionUrl":"eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/1b457058cf2b317304ff9f70543c040d.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/fdefdb34cbe3d2ac9964d306febe9025.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":578,"shareCount":200,"replyCount":13},"resourceType":"video","slogan":"WORKING TO SPEND，工作是为了更好地消费","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"创意","author":{"id":2161,"icon":"http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg","name":"开眼创意精选","description":"技术与审美结合，探索视觉的无限可能","link":"","latestReleaseTime":1563757200000,"videoNum":695,"adTrack":null,"follow":{"itemType":"author","itemId":2161,"followed":false},"shield":{"itemType":"author","itemId":2161,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":219,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=51164","forWeibo":"http://wandou.im/3obmeq"},"releaseTime":1563757200000,"playInfo":[{"height":482,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1278,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":35943994},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":35943994},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":35943994}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":165703,"title":"现在是时候扔掉 4G，换 5G 手机了吗？","description":"2019 年可以说是 5G 元年，但目前 5G 距离广泛使用还有不少难题。当下使用最多的 4G 在本质上是 3G 网络的升级版，只是速度更快、传输范围更广。但是 5G 系统更像是高速低延迟的 Wi-Fi 系统，是一种窄范围的高速传输。 这也是 5G 尚未普及的最重要原因之一。From MrMobile","library":"DAILY","tags":[{"id":869,"name":"数码测评","actionUrl":"eyepetizer://tag/869/?title=%E6%95%B0%E7%A0%81%E6%B5%8B%E8%AF%84","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/23cb257bd31642bfd78dd5325565bce4.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/23cb257bd31642bfd78dd5325565bce4.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":866,"name":"前沿科技","actionUrl":"eyepetizer://tag/866/?title=%E5%89%8D%E6%B2%BF%E7%A7%91%E6%8A%80","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/190fe9fb29c4319d3954f1e0e56ca125.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/190fe9fb29c4319d3954f1e0e56ca125.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":1024,"name":"科技","actionUrl":"eyepetizer://tag/1024/?title=%E7%A7%91%E6%8A%80","adTrack":null,"desc":"新知识与一切先进生产力","bgPicture":"http://img.kaiyanapp.com/7e326064edc565ac6355921cfe4b3e46.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/810adad06df812462bb0e00501fa679c.png?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":101,"shareCount":69,"replyCount":5},"resourceType":"video","slogan":"使用 5G 手机一天后，我决定放弃","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"科技","author":{"id":2171,"icon":"http://img.kaiyanapp.com/0117b9108c7cff43700db8af5e24f2bf.jpeg","name":"开眼科技精选","description":"新知识与一切先进生产力","link":"","latestReleaseTime":1563757205000,"videoNum":207,"adTrack":null,"follow":{"itemType":"author","itemId":2171,"followed":false},"shield":{"itemType":"author","itemId":2171,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/547d80cd3787ac2f1b77614fe3898ff2.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/4fdea7f56f9c2090261688098889bcc5.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":512,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=165703","forWeibo":"http://www.eyepetizer.net/detail.html?vid=165703&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563757205000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":51948447},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":51948447},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":51948447}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":101947242},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":101947242},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":101947242}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=165703&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"2019 年可以说是 5G 元年，但目前 5G 距离广泛使用还有不少难题。当下使用最多的 4G 在本质上是 3G 网络的升级版，只是速度更快、传输范围更广。但是 5G 系统更像是高速低延迟的 Wi-Fi 系统，是一种窄范围的高速传输。 这也是 5G 尚未普及的最重要原因之一。From MrMobile","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1},{"type":"video","data":{"dataType":"VideoBeanForClient","id":167205,"title":"手机低头族福利 App：便便侦测器","description":"解决强需求的「便便侦测器」，帮你更加专心玩手机哦～ ","library":"DAILY","tags":[{"id":146,"name":"666","actionUrl":"eyepetizer://tag/146/?title=666","adTrack":null,"desc":null,"bgPicture":"https://i.ytimg.com/vi/MKWWhf8RAV8/maxresdefault.jpg","headerImage":"http://img.kaiyanapp.com/522f7e51abb07a4a4438b82ee54174a4.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":140,"name":"搞笑","actionUrl":"eyepetizer://tag/140/?title=%E6%90%9E%E7%AC%91","adTrack":null,"desc":"哈哈哈哈哈哈哈哈","bgPicture":"http://img.kaiyanapp.com/f787d5053443499e8d787911cd8b3876.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/f2b803d3c383bba5a3888b2709160b6e.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":172,"name":"什么鬼","actionUrl":"eyepetizer://tag/172/?title=%E4%BB%80%E4%B9%88%E9%AC%BC","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/e6b5568e865b26f3f84270e613955e59.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/e6b5568e865b26f3f84270e613955e59.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":65,"shareCount":29,"replyCount":4},"resourceType":"video","slogan":"又一款解决强需求产品发布（才怪）","provider":{"name":"YouTube","alias":"youtube","icon":"http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"},"category":"搞笑","author":{"id":4458,"icon":"http://img.kaiyanapp.com/2b775c7d05db341a5c834087d1e14bf0.png?imageMogr2/quality/60/format/jpg","name":"Comedy Central","description":"喜剧中心是美国有线及卫星电视中的一个电视频道，专播喜剧及幽默节目。 ","link":"","latestReleaseTime":1563757206000,"videoNum":9,"adTrack":null,"follow":{"itemType":"author","itemId":4458,"followed":false},"shield":{"itemType":"author","itemId":4458,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/15e96e7dcb279bf0c0e7fbf25410f655.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/33acd8b3d945db594cc280f9a8a7febe.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":null,"duration":57,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=167205","forWeibo":"http://www.eyepetizer.net/detail.html?vid=167205&resourceType=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"},"releaseTime":1563757206000,"playInfo":[{"height":480,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":5143160},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":5143160},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":5143160}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1280,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":9218260},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":9218260},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":9218260}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=167205&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":null,"descriptionPgc":null,"remark":null,"ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"解决强需求的「便便侦测器」，帮你更加专心玩手机哦～ ","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null},"tag":null,"id":0,"adIndex":-1}]
          * count : 3
          */
 
@@ -126,8 +126,8 @@ public class HomeBean {
 
         public static class ItemListBean {
             /**
-             * type : banner2
-             * data : {"dataType":"Banner","id":0,"title":"","description":"","image":"http://img.kaiyanapp.com/eef24aa10ab6cf17b5a512943ec22053.jpeg?imageMogr2/quality/60/format/jpg","actionUrl":"","adTrack":null,"shade":false,"label":null,"labelList":null,"header":null,"autoPlay":false}
+             * type : video
+             * data : {"dataType":"VideoBeanForClient","id":51164,"title":"给世界的警告：一个悖论正在撕裂我们","description":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","library":"DAILY","tags":[{"id":744,"name":"每日创意灵感","actionUrl":"eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":580,"name":"人性","actionUrl":"eyepetizer://tag/580/?title=%E4%BA%BA%E6%80%A7","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":482,"name":"人生感悟","actionUrl":"eyepetizer://tag/482/?title=%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":2,"name":"创意","actionUrl":"eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/1b457058cf2b317304ff9f70543c040d.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/fdefdb34cbe3d2ac9964d306febe9025.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":578,"shareCount":200,"replyCount":13},"resourceType":"video","slogan":"WORKING TO SPEND，工作是为了更好地消费","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"创意","author":{"id":2161,"icon":"http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg","name":"开眼创意精选","description":"技术与审美结合，探索视觉的无限可能","link":"","latestReleaseTime":1563757200000,"videoNum":695,"adTrack":null,"follow":{"itemType":"author","itemId":2161,"followed":false},"shield":{"itemType":"author","itemId":2161,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":219,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=51164","forWeibo":"http://wandou.im/3obmeq"},"releaseTime":1563757200000,"playInfo":[{"height":482,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1278,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":35943994},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":35943994},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":35943994}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null}
              * tag : null
              * id : 0
              * adIndex : -1
@@ -181,32 +181,98 @@ public class HomeBean {
 
             public static class DataBean {
                 /**
-                 * dataType : Banner
-                 * id : 0
-                 * title :
-                 * description :
-                 * image : http://img.kaiyanapp.com/eef24aa10ab6cf17b5a512943ec22053.jpeg?imageMogr2/quality/60/format/jpg
-                 * actionUrl :
+                 * dataType : VideoBeanForClient
+                 * id : 51164
+                 * title : 给世界的警告：一个悖论正在撕裂我们
+                 * description : 不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」——「工作是为了更好地消费」。
+                 英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨——战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig
+                 * library : DAILY
+                 * tags : [{"id":744,"name":"每日创意灵感","actionUrl":"eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":580,"name":"人性","actionUrl":"eyepetizer://tag/580/?title=%E4%BA%BA%E6%80%A7","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":482,"name":"人生感悟","actionUrl":"eyepetizer://tag/482/?title=%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":2,"name":"创意","actionUrl":"eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/1b457058cf2b317304ff9f70543c040d.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/fdefdb34cbe3d2ac9964d306febe9025.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}]
+                 * consumption : {"collectionCount":578,"shareCount":200,"replyCount":13}
+                 * resourceType : video
+                 * slogan : WORKING TO SPEND，工作是为了更好地消费
+                 * provider : {"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"}
+                 * category : 创意
+                 * author : {"id":2161,"icon":"http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg","name":"开眼创意精选","description":"技术与审美结合，探索视觉的无限可能","link":"","latestReleaseTime":1563757200000,"videoNum":695,"adTrack":null,"follow":{"itemType":"author","itemId":2161,"followed":false},"shield":{"itemType":"author","itemId":2161,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false}
+                 * cover : {"feed":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"}
+                 * playUrl : http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss
+                 * thumbPlayUrl :
+                 * duration : 219
+                 * webUrl : {"raw":"http://www.eyepetizer.net/detail.html?vid=51164","forWeibo":"http://wandou.im/3obmeq"}
+                 * releaseTime : 1563757200000
+                 * playInfo : [{"height":482,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1278,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":35943994},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":35943994},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":35943994}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}]
+                 * campaign : null
+                 * waterMarks : null
+                 * ad : false
                  * adTrack : null
-                 * shade : false
+                 * type : NORMAL
+                 * titlePgc :
+                 * descriptionPgc :
+                 * remark :
+                 * ifLimitVideo : false
+                 * searchWeight : 0
+                 * idx : 0
+                 * shareAdTrack : null
+                 * favoriteAdTrack : null
+                 * webAdTrack : null
+                 * date : 1563757200000
+                 * promotion : null
                  * label : null
-                 * labelList : null
-                 * header : null
-                 * autoPlay : false
+                 * labelList : []
+                 * descriptionEditor : 不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」——「工作是为了更好地消费」。
+                 英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨——战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig
+                 * collected : false
+                 * played : false
+                 * subtitles : []
+                 * lastViewTime : null
+                 * playlists : null
+                 * src : null
                  */
 
                 private String dataType;
                 private int id;
                 private String title;
                 private String description;
-                private String image;
-                private String actionUrl;
+                private String library;
+                private ConsumptionBean consumption;
+                private String resourceType;
+                private String slogan;
+                private ProviderBean provider;
+                private String category;
+                private AuthorBean author;
+                private CoverBean cover;
+                private String playUrl;
+                private String thumbPlayUrl;
+                private int duration;
+                private WebUrlBean webUrl;
+                private long releaseTime;
+                private Object campaign;
+                private Object waterMarks;
+                private boolean ad;
                 private Object adTrack;
-                private boolean shade;
+                private String type;
+                private String titlePgc;
+                private String descriptionPgc;
+                private String remark;
+                private boolean ifLimitVideo;
+                private int searchWeight;
+                private int idx;
+                private Object shareAdTrack;
+                private Object favoriteAdTrack;
+                private Object webAdTrack;
+                private long date;
+                private Object promotion;
                 private Object label;
-                private Object labelList;
-                private Object header;
-                private boolean autoPlay;
+                private String descriptionEditor;
+                private boolean collected;
+                private boolean played;
+                private Object lastViewTime;
+                private Object playlists;
+                private Object src;
+                private List<TagsBean> tags;
+                private List<PlayInfoBean> playInfo;
+                private List<?> labelList;
+                private List<?> subtitles;
 
                 public String getDataType() {
                     return dataType;
@@ -240,20 +306,132 @@ public class HomeBean {
                     this.description = description;
                 }
 
-                public String getImage() {
-                    return image;
+                public String getLibrary() {
+                    return library;
                 }
 
-                public void setImage(String image) {
-                    this.image = image;
+                public void setLibrary(String library) {
+                    this.library = library;
                 }
 
-                public String getActionUrl() {
-                    return actionUrl;
+                public ConsumptionBean getConsumption() {
+                    return consumption;
                 }
 
-                public void setActionUrl(String actionUrl) {
-                    this.actionUrl = actionUrl;
+                public void setConsumption(ConsumptionBean consumption) {
+                    this.consumption = consumption;
+                }
+
+                public String getResourceType() {
+                    return resourceType;
+                }
+
+                public void setResourceType(String resourceType) {
+                    this.resourceType = resourceType;
+                }
+
+                public String getSlogan() {
+                    return slogan;
+                }
+
+                public void setSlogan(String slogan) {
+                    this.slogan = slogan;
+                }
+
+                public ProviderBean getProvider() {
+                    return provider;
+                }
+
+                public void setProvider(ProviderBean provider) {
+                    this.provider = provider;
+                }
+
+                public String getCategory() {
+                    return category;
+                }
+
+                public void setCategory(String category) {
+                    this.category = category;
+                }
+
+                public AuthorBean getAuthor() {
+                    return author;
+                }
+
+                public void setAuthor(AuthorBean author) {
+                    this.author = author;
+                }
+
+                public CoverBean getCover() {
+                    return cover;
+                }
+
+                public void setCover(CoverBean cover) {
+                    this.cover = cover;
+                }
+
+                public String getPlayUrl() {
+                    return playUrl;
+                }
+
+                public void setPlayUrl(String playUrl) {
+                    this.playUrl = playUrl;
+                }
+
+                public String getThumbPlayUrl() {
+                    return thumbPlayUrl;
+                }
+
+                public void setThumbPlayUrl(String thumbPlayUrl) {
+                    this.thumbPlayUrl = thumbPlayUrl;
+                }
+
+                public int getDuration() {
+                    return duration;
+                }
+
+                public void setDuration(int duration) {
+                    this.duration = duration;
+                }
+
+                public WebUrlBean getWebUrl() {
+                    return webUrl;
+                }
+
+                public void setWebUrl(WebUrlBean webUrl) {
+                    this.webUrl = webUrl;
+                }
+
+                public long getReleaseTime() {
+                    return releaseTime;
+                }
+
+                public void setReleaseTime(long releaseTime) {
+                    this.releaseTime = releaseTime;
+                }
+
+                public Object getCampaign() {
+                    return campaign;
+                }
+
+                public void setCampaign(Object campaign) {
+                    this.campaign = campaign;
+                }
+
+                public Object getWaterMarks() {
+                    return waterMarks;
+                }
+
+                public void setWaterMarks(Object waterMarks) {
+                    this.waterMarks = waterMarks;
+                }
+
+                public boolean isAd() {
+                    return ad;
+                }
+
+                public void setAd(boolean ad) {
+                    this.ad = ad;
                 }
 
                 public Object getAdTrack() {
@@ -264,12 +442,100 @@ public class HomeBean {
                     this.adTrack = adTrack;
                 }
 
-                public boolean isShade() {
-                    return shade;
+                public String getType() {
+                    return type;
                 }
 
-                public void setShade(boolean shade) {
-                    this.shade = shade;
+                public void setType(String type) {
+                    this.type = type;
+                }
+
+                public String getTitlePgc() {
+                    return titlePgc;
+                }
+
+                public void setTitlePgc(String titlePgc) {
+                    this.titlePgc = titlePgc;
+                }
+
+                public String getDescriptionPgc() {
+                    return descriptionPgc;
+                }
+
+                public void setDescriptionPgc(String descriptionPgc) {
+                    this.descriptionPgc = descriptionPgc;
+                }
+
+                public String getRemark() {
+                    return remark;
+                }
+
+                public void setRemark(String remark) {
+                    this.remark = remark;
+                }
+
+                public boolean isIfLimitVideo() {
+                    return ifLimitVideo;
+                }
+
+                public void setIfLimitVideo(boolean ifLimitVideo) {
+                    this.ifLimitVideo = ifLimitVideo;
+                }
+
+                public int getSearchWeight() {
+                    return searchWeight;
+                }
+
+                public void setSearchWeight(int searchWeight) {
+                    this.searchWeight = searchWeight;
+                }
+
+                public int getIdx() {
+                    return idx;
+                }
+
+                public void setIdx(int idx) {
+                    this.idx = idx;
+                }
+
+                public Object getShareAdTrack() {
+                    return shareAdTrack;
+                }
+
+                public void setShareAdTrack(Object shareAdTrack) {
+                    this.shareAdTrack = shareAdTrack;
+                }
+
+                public Object getFavoriteAdTrack() {
+                    return favoriteAdTrack;
+                }
+
+                public void setFavoriteAdTrack(Object favoriteAdTrack) {
+                    this.favoriteAdTrack = favoriteAdTrack;
+                }
+
+                public Object getWebAdTrack() {
+                    return webAdTrack;
+                }
+
+                public void setWebAdTrack(Object webAdTrack) {
+                    this.webAdTrack = webAdTrack;
+                }
+
+                public long getDate() {
+                    return date;
+                }
+
+                public void setDate(long date) {
+                    this.date = date;
+                }
+
+                public Object getPromotion() {
+                    return promotion;
+                }
+
+                public void setPromotion(Object promotion) {
+                    this.promotion = promotion;
                 }
 
                 public Object getLabel() {
@@ -280,28 +546,674 @@ public class HomeBean {
                     this.label = label;
                 }
 
-                public Object getLabelList() {
+                public String getDescriptionEditor() {
+                    return descriptionEditor;
+                }
+
+                public void setDescriptionEditor(String descriptionEditor) {
+                    this.descriptionEditor = descriptionEditor;
+                }
+
+                public boolean isCollected() {
+                    return collected;
+                }
+
+                public void setCollected(boolean collected) {
+                    this.collected = collected;
+                }
+
+                public boolean isPlayed() {
+                    return played;
+                }
+
+                public void setPlayed(boolean played) {
+                    this.played = played;
+                }
+
+                public Object getLastViewTime() {
+                    return lastViewTime;
+                }
+
+                public void setLastViewTime(Object lastViewTime) {
+                    this.lastViewTime = lastViewTime;
+                }
+
+                public Object getPlaylists() {
+                    return playlists;
+                }
+
+                public void setPlaylists(Object playlists) {
+                    this.playlists = playlists;
+                }
+
+                public Object getSrc() {
+                    return src;
+                }
+
+                public void setSrc(Object src) {
+                    this.src = src;
+                }
+
+                public List<TagsBean> getTags() {
+                    return tags;
+                }
+
+                public void setTags(List<TagsBean> tags) {
+                    this.tags = tags;
+                }
+
+                public List<PlayInfoBean> getPlayInfo() {
+                    return playInfo;
+                }
+
+                public void setPlayInfo(List<PlayInfoBean> playInfo) {
+                    this.playInfo = playInfo;
+                }
+
+                public List<?> getLabelList() {
                     return labelList;
                 }
 
-                public void setLabelList(Object labelList) {
+                public void setLabelList(List<?> labelList) {
                     this.labelList = labelList;
                 }
 
-                public Object getHeader() {
-                    return header;
+                public List<?> getSubtitles() {
+                    return subtitles;
                 }
 
-                public void setHeader(Object header) {
-                    this.header = header;
+                public void setSubtitles(List<?> subtitles) {
+                    this.subtitles = subtitles;
                 }
 
-                public boolean isAutoPlay() {
-                    return autoPlay;
+                public static class ConsumptionBean {
+                    /**
+                     * collectionCount : 578
+                     * shareCount : 200
+                     * replyCount : 13
+                     */
+
+                    private int collectionCount;
+                    private int shareCount;
+                    private int replyCount;
+
+                    public int getCollectionCount() {
+                        return collectionCount;
+                    }
+
+                    public void setCollectionCount(int collectionCount) {
+                        this.collectionCount = collectionCount;
+                    }
+
+                    public int getShareCount() {
+                        return shareCount;
+                    }
+
+                    public void setShareCount(int shareCount) {
+                        this.shareCount = shareCount;
+                    }
+
+                    public int getReplyCount() {
+                        return replyCount;
+                    }
+
+                    public void setReplyCount(int replyCount) {
+                        this.replyCount = replyCount;
+                    }
                 }
 
-                public void setAutoPlay(boolean autoPlay) {
-                    this.autoPlay = autoPlay;
+                public static class ProviderBean {
+                    /**
+                     * name : Vimeo
+                     * alias : vimeo
+                     * icon : http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png
+                     */
+
+                    private String name;
+                    private String alias;
+                    private String icon;
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public String getAlias() {
+                        return alias;
+                    }
+
+                    public void setAlias(String alias) {
+                        this.alias = alias;
+                    }
+
+                    public String getIcon() {
+                        return icon;
+                    }
+
+                    public void setIcon(String icon) {
+                        this.icon = icon;
+                    }
+                }
+
+                public static class AuthorBean {
+                    /**
+                     * id : 2161
+                     * icon : http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg
+                     * name : 开眼创意精选
+                     * description : 技术与审美结合，探索视觉的无限可能
+                     * link :
+                     * latestReleaseTime : 1563757200000
+                     * videoNum : 695
+                     * adTrack : null
+                     * follow : {"itemType":"author","itemId":2161,"followed":false}
+                     * shield : {"itemType":"author","itemId":2161,"shielded":false}
+                     * approvedNotReadyVideoCount : 0
+                     * ifPgc : true
+                     * recSort : 0
+                     * expert : false
+                     */
+
+                    private int id;
+                    private String icon;
+                    private String name;
+                    private String description;
+                    private String link;
+                    private long latestReleaseTime;
+                    private int videoNum;
+                    private Object adTrack;
+                    private FollowBean follow;
+                    private ShieldBean shield;
+                    private int approvedNotReadyVideoCount;
+                    private boolean ifPgc;
+                    private int recSort;
+                    private boolean expert;
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public String getIcon() {
+                        return icon;
+                    }
+
+                    public void setIcon(String icon) {
+                        this.icon = icon;
+                    }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public String getDescription() {
+                        return description;
+                    }
+
+                    public void setDescription(String description) {
+                        this.description = description;
+                    }
+
+                    public String getLink() {
+                        return link;
+                    }
+
+                    public void setLink(String link) {
+                        this.link = link;
+                    }
+
+                    public long getLatestReleaseTime() {
+                        return latestReleaseTime;
+                    }
+
+                    public void setLatestReleaseTime(long latestReleaseTime) {
+                        this.latestReleaseTime = latestReleaseTime;
+                    }
+
+                    public int getVideoNum() {
+                        return videoNum;
+                    }
+
+                    public void setVideoNum(int videoNum) {
+                        this.videoNum = videoNum;
+                    }
+
+                    public Object getAdTrack() {
+                        return adTrack;
+                    }
+
+                    public void setAdTrack(Object adTrack) {
+                        this.adTrack = adTrack;
+                    }
+
+                    public FollowBean getFollow() {
+                        return follow;
+                    }
+
+                    public void setFollow(FollowBean follow) {
+                        this.follow = follow;
+                    }
+
+                    public ShieldBean getShield() {
+                        return shield;
+                    }
+
+                    public void setShield(ShieldBean shield) {
+                        this.shield = shield;
+                    }
+
+                    public int getApprovedNotReadyVideoCount() {
+                        return approvedNotReadyVideoCount;
+                    }
+
+                    public void setApprovedNotReadyVideoCount(int approvedNotReadyVideoCount) {
+                        this.approvedNotReadyVideoCount = approvedNotReadyVideoCount;
+                    }
+
+                    public boolean isIfPgc() {
+                        return ifPgc;
+                    }
+
+                    public void setIfPgc(boolean ifPgc) {
+                        this.ifPgc = ifPgc;
+                    }
+
+                    public int getRecSort() {
+                        return recSort;
+                    }
+
+                    public void setRecSort(int recSort) {
+                        this.recSort = recSort;
+                    }
+
+                    public boolean isExpert() {
+                        return expert;
+                    }
+
+                    public void setExpert(boolean expert) {
+                        this.expert = expert;
+                    }
+
+                    public static class FollowBean {
+                        /**
+                         * itemType : author
+                         * itemId : 2161
+                         * followed : false
+                         */
+
+                        private String itemType;
+                        private int itemId;
+                        private boolean followed;
+
+                        public String getItemType() {
+                            return itemType;
+                        }
+
+                        public void setItemType(String itemType) {
+                            this.itemType = itemType;
+                        }
+
+                        public int getItemId() {
+                            return itemId;
+                        }
+
+                        public void setItemId(int itemId) {
+                            this.itemId = itemId;
+                        }
+
+                        public boolean isFollowed() {
+                            return followed;
+                        }
+
+                        public void setFollowed(boolean followed) {
+                            this.followed = followed;
+                        }
+                    }
+
+                    public static class ShieldBean {
+                        /**
+                         * itemType : author
+                         * itemId : 2161
+                         * shielded : false
+                         */
+
+                        private String itemType;
+                        private int itemId;
+                        private boolean shielded;
+
+                        public String getItemType() {
+                            return itemType;
+                        }
+
+                        public void setItemType(String itemType) {
+                            this.itemType = itemType;
+                        }
+
+                        public int getItemId() {
+                            return itemId;
+                        }
+
+                        public void setItemId(int itemId) {
+                            this.itemId = itemId;
+                        }
+
+                        public boolean isShielded() {
+                            return shielded;
+                        }
+
+                        public void setShielded(boolean shielded) {
+                            this.shielded = shielded;
+                        }
+                    }
+                }
+
+                public static class CoverBean {
+                    /**
+                     * feed : http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg
+                     * detail : http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg
+                     * blurred : http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg
+                     * sharing : null
+                     * homepage : http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim
+                     */
+
+                    private String feed;
+                    private String detail;
+                    private String blurred;
+                    private Object sharing;
+                    private String homepage;
+
+                    public String getFeed() {
+                        return feed;
+                    }
+
+                    public void setFeed(String feed) {
+                        this.feed = feed;
+                    }
+
+                    public String getDetail() {
+                        return detail;
+                    }
+
+                    public void setDetail(String detail) {
+                        this.detail = detail;
+                    }
+
+                    public String getBlurred() {
+                        return blurred;
+                    }
+
+                    public void setBlurred(String blurred) {
+                        this.blurred = blurred;
+                    }
+
+                    public Object getSharing() {
+                        return sharing;
+                    }
+
+                    public void setSharing(Object sharing) {
+                        this.sharing = sharing;
+                    }
+
+                    public String getHomepage() {
+                        return homepage;
+                    }
+
+                    public void setHomepage(String homepage) {
+                        this.homepage = homepage;
+                    }
+                }
+
+                public static class WebUrlBean {
+                    /**
+                     * raw : http://www.eyepetizer.net/detail.html?vid=51164
+                     * forWeibo : http://wandou.im/3obmeq
+                     */
+
+                    private String raw;
+                    private String forWeibo;
+
+                    public String getRaw() {
+                        return raw;
+                    }
+
+                    public void setRaw(String raw) {
+                        this.raw = raw;
+                    }
+
+                    public String getForWeibo() {
+                        return forWeibo;
+                    }
+
+                    public void setForWeibo(String forWeibo) {
+                        this.forWeibo = forWeibo;
+                    }
+                }
+
+                public static class TagsBean {
+                    /**
+                     * id : 744
+                     * name : 每日创意灵感
+                     * actionUrl : eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F
+                     * adTrack : null
+                     * desc : 技术与审美结合，探索视觉的无限可能
+                     * bgPicture : http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg
+                     * headerImage : http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg
+                     * tagRecType : IMPORTANT
+                     * childTagList : null
+                     * childTagIdList : null
+                     * communityIndex : 0
+                     */
+
+                    private int id;
+                    private String name;
+                    private String actionUrl;
+                    private Object adTrack;
+                    private String desc;
+                    private String bgPicture;
+                    private String headerImage;
+                    private String tagRecType;
+                    private Object childTagList;
+                    private Object childTagIdList;
+                    private int communityIndex;
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public String getActionUrl() {
+                        return actionUrl;
+                    }
+
+                    public void setActionUrl(String actionUrl) {
+                        this.actionUrl = actionUrl;
+                    }
+
+                    public Object getAdTrack() {
+                        return adTrack;
+                    }
+
+                    public void setAdTrack(Object adTrack) {
+                        this.adTrack = adTrack;
+                    }
+
+                    public String getDesc() {
+                        return desc;
+                    }
+
+                    public void setDesc(String desc) {
+                        this.desc = desc;
+                    }
+
+                    public String getBgPicture() {
+                        return bgPicture;
+                    }
+
+                    public void setBgPicture(String bgPicture) {
+                        this.bgPicture = bgPicture;
+                    }
+
+                    public String getHeaderImage() {
+                        return headerImage;
+                    }
+
+                    public void setHeaderImage(String headerImage) {
+                        this.headerImage = headerImage;
+                    }
+
+                    public String getTagRecType() {
+                        return tagRecType;
+                    }
+
+                    public void setTagRecType(String tagRecType) {
+                        this.tagRecType = tagRecType;
+                    }
+
+                    public Object getChildTagList() {
+                        return childTagList;
+                    }
+
+                    public void setChildTagList(Object childTagList) {
+                        this.childTagList = childTagList;
+                    }
+
+                    public Object getChildTagIdList() {
+                        return childTagIdList;
+                    }
+
+                    public void setChildTagIdList(Object childTagIdList) {
+                        this.childTagIdList = childTagIdList;
+                    }
+
+                    public int getCommunityIndex() {
+                        return communityIndex;
+                    }
+
+                    public void setCommunityIndex(int communityIndex) {
+                        this.communityIndex = communityIndex;
+                    }
+                }
+
+                public static class PlayInfoBean {
+                    /**
+                     * height : 482
+                     * width : 854
+                     * urlList : [{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}]
+                     * name : 标清
+                     * type : normal
+                     * url : http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss
+                     */
+
+                    private int height;
+                    private int width;
+                    private String name;
+                    private String type;
+                    private String url;
+                    private List<UrlListBean> urlList;
+
+                    public int getHeight() {
+                        return height;
+                    }
+
+                    public void setHeight(int height) {
+                        this.height = height;
+                    }
+
+                    public int getWidth() {
+                        return width;
+                    }
+
+                    public void setWidth(int width) {
+                        this.width = width;
+                    }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public String getType() {
+                        return type;
+                    }
+
+                    public void setType(String type) {
+                        this.type = type;
+                    }
+
+                    public String getUrl() {
+                        return url;
+                    }
+
+                    public void setUrl(String url) {
+                        this.url = url;
+                    }
+
+                    public List<UrlListBean> getUrlList() {
+                        return urlList;
+                    }
+
+                    public void setUrlList(List<UrlListBean> urlList) {
+                        this.urlList = urlList;
+                    }
+
+                    public static class UrlListBean {
+                        /**
+                         * name : aliyun
+                         * url : http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss
+                         * size : 23281574
+                         */
+
+                        private String name;
+                        private String url;
+                        private int size;
+
+                        public String getName() {
+                            return name;
+                        }
+
+                        public void setName(String name) {
+                            this.name = name;
+                        }
+
+                        public String getUrl() {
+                            return url;
+                        }
+
+                        public void setUrl(String url) {
+                            this.url = url;
+                        }
+
+                        public int getSize() {
+                            return size;
+                        }
+
+                        public void setSize(int size) {
+                            this.size = size;
+                        }
+                    }
                 }
             }
         }

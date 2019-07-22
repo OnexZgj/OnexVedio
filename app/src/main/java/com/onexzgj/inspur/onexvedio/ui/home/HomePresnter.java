@@ -34,7 +34,7 @@ public class HomePresnter extends BasePresenter<HomeContract.View> implements Ho
                     @Override
                     public void accept(Throwable throwable) throws Exception {
                         mView.showToast("网络异常了...");
-                        Logger.d(throwable.getMessage().toCharArray());
+                        Logger.d(throwable.getMessage().toString());
                         mView.hideLoading();
                     }
                 });
