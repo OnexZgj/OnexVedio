@@ -7,13 +7,16 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
 import com.onexzgj.inspur.onexvedio.constant.Constant;
 import com.onexzgj.inspur.onexvedio.utils.GlideImageLoader;
 import com.onexzgj.onexlibrary.base.BaseFragment;
 import com.youth.banner.Banner;
+import com.youth.banner.BannerConfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,29 +51,22 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
     @Override
     protected void initView(View view) {
-        images.add("http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg");
-        images.add("http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg");
-        images.add("http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg");
 
         mHomeAdapter = new HomeAdapter(mDatas);
         rvFhHome.setLayoutManager(new LinearLayoutManager(getActivity()));
 
 
-        banner = (Banner) View.inflate(getContext(), R.layout.item_banner, null);
-//        banner= new Banner(getActivity());
-//        banner.setLayoutParams(new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 200));
+        banner= new Banner(getActivity());
+        banner.setLayoutParams(new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500 ));
+
 
         //设置图片加载器
         banner.setImageLoader(new GlideImageLoader());
+        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
 
         rvFhHome.setAdapter(mHomeAdapter);
         //设置Banner
         mHomeAdapter.addHeaderView(banner);
-        //设置图片集合
-        banner.setImages(images);
-        //banner设置方法全部调用完毕时最后调用
-        banner.start();
-
 
         mPresenter.loadHomeData(1);
 
@@ -97,12 +93,12 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
 
 
-//        if (images!=null && images.size()>0) {
-//            //设置图片集合
-//            banner.setImages(images);
-//            //banner设置方法全部调用完毕时最后调用
-//            banner.start();
-//        }
+        if (images!=null && images.size()>0) {
+            //设置图片集合
+            banner.setImages(images);
+            //banner设置方法全部调用完毕时最后调用
+            banner.start();
+        }
 
     }
 }
