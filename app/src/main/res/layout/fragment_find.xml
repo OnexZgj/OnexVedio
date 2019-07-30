@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.onexzgj.inspur.onexvedio.widget.SwipeToLoadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeToLoadLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <include
+        android:id="@+id/swipe_refresh_header"
+        layout="@layout/layout_jd_header" />
 
-
-    <TextView
+    <LinearLayout
+        android:id="@+id/swipe_target"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="查找"/>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fh_find"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.onexzgj.inspur.onexvedio.widget.SwipeToLoadLayout>
