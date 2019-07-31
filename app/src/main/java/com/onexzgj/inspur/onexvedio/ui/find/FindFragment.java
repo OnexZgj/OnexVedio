@@ -78,9 +78,9 @@ public class FindFragment extends BaseFragment<HomePresnter> implements HomeCont
         // 设置下拉刷新和上拉加载更多的风格     参数1：应用程序上下文，参数2：是否具有上拉加载更多功能
         BGARefreshViewHolder refreshViewHolder = new BGAMeiTuanRefreshViewHolder(getActivity(), false);
         // 设置下拉刷新和上拉加载更多的风格
-        ((BGAMeiTuanRefreshViewHolder) refreshViewHolder).setPullDownImageResource(R.drawable.bga_refresh_mt_refreshing);
+        ((BGAMeiTuanRefreshViewHolder) refreshViewHolder).setPullDownImageResource(R.drawable.animation_list_refresh_jd);
         ((BGAMeiTuanRefreshViewHolder) refreshViewHolder).setRefreshingAnimResId(R.drawable.animation_list_refresh_jd);
-        ((BGAMeiTuanRefreshViewHolder) refreshViewHolder).setChangeToReleaseRefreshAnimResId(R.drawable.bga_refresh_mt_refreshing);
+        ((BGAMeiTuanRefreshViewHolder) refreshViewHolder).setChangeToReleaseRefreshAnimResId(R.drawable.animation_list_refresh_jd);
         mRefreshLayout.setRefreshViewHolder(refreshViewHolder);
 
 
