@@ -23,7 +23,7 @@ import java.util.List;
 
 import butterknife.BindView;
 
-public class HomeFragment extends BaseFragment<HomePresnter> implements HomeContract.View {
+public class HomeFragment extends BaseFragment<HomePresnter> implements HomeContract.View, SwipeRefreshLayout.OnRefreshListener {
 
 
     @BindView(R.id.rv_fh_home)
@@ -56,8 +56,8 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
         rvFhHome.setLayoutManager(new LinearLayoutManager(getActivity()));
 
 
-        banner= new Banner(getActivity());
-        banner.setLayoutParams(new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500 ));
+        banner = new Banner(getActivity());
+        banner.setLayoutParams(new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500));
 
 
         //设置图片加载器
@@ -69,6 +69,7 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
         mHomeAdapter.addHeaderView(banner);
 
         mPresenter.loadHomeData(1);
+        refreshLayout.setOnRefreshListener(this);
 
     }
 
@@ -79,26 +80,33 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
 
     @Override
-    public void showHomeData(HomeBean homeBean) {
-        mDatas.addAll(homeBean.getIssueList().get(0).getItemList());
-        mHomeAdapter.notifyDataSetChanged();
-
+    public void showBannerData(HomeBean homeBean) {
 
         for (HomeBean.IssueListBean.ItemListBean item : mDatas) {
             if (item.getType().equals("video")) {
-                if (item.getData().getCover().getDetail()!=null)
-                images.add(item.getData().getCover().getDetail());
+                if (item.getData().getCover().getDetail() != null)
+                    images.add(item.getData().getCover().getDetail());
             }
         }
 
-
-
-        if (images!=null && images.size()>0) {
+        if (images != null && images.size() > 0) {
             //设置图片集合
             banner.setImages(images);
             //banner设置方法全部调用完毕时最后调用
             banner.start();
         }
+    }
 
+    @Override
+    public void showHomeData(HomeBean homeBean) {
+        mDatas.addAll(homeBean.getIssueList().get(0).getItemList());
+        mHomeAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onRefresh() {
+        if (mDatas != null && mDatas.size() > 0)
+            mDatas.clear();
+        mPresenter.refresh();
     }
 }

@@ -28,9 +28,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitHelper {
 
     public static final String BASE_URL = "http://baobab.kaiyanapp.com/api/";
-    private static final int TIMEOUT_READ = 3000;
-    private static final int TIMEOUT_WRITE = 3000;
-    private static final int TIMEOUT_CONNECTION = 3000;
+    private static final int TIMEOUT_READ = 5000;
+    private static final int TIMEOUT_WRITE = 5000;
+    private static final int TIMEOUT_CONNECTION = 5000;
     private static final HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor()
             .setLevel(HttpLoggingInterceptor.Level.BODY);
     private static CacheInterceptor cacheInterceptor = new CacheInterceptor();

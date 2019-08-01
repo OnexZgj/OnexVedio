@@ -7,7 +7,18 @@ public class HomeContract {
 
     interface View extends BaseContract.BaseView{
 
+        /**
+         * 展示轮播图数据
+         * @param homeBean
+         */
+        void showBannerData(HomeBean homeBean);
+
+        /**
+         * 展示首页数据问题
+         * @param homeBean
+         */
         void showHomeData(HomeBean homeBean);
+
     }
 
     interface Presenter extends BaseContract.BasePresenter<HomeContract.View>{
