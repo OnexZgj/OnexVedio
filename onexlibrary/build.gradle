@@ -73,7 +73,7 @@ dependencies {
 
 
     //    api 'com.miomin:shswiperefreshlayout:1.3.0'
-    implementation project(':LitePal-master')
+    api project(':LitePal-master')
         //banner
     api 'com.youth.banner:banner:1.4.10'
 }

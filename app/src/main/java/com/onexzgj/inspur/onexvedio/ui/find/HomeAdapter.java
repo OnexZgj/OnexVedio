@@ -16,7 +16,7 @@ public class HomeAdapter extends BaseQuickAdapter< IssueListBean.ItemListBean,Ba
 
     @Override
     protected void convert(BaseViewHolder helper, IssueListBean.ItemListBean item) {
-        helper.setText(R.id.tv_ihv_view,item.getData().getTitle());
+        helper.setText(R.id.tv_title,item.getData().getTitle());
     }
 
 

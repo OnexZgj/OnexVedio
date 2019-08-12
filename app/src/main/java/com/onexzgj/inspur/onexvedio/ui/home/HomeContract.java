@@ -17,7 +17,7 @@ public class HomeContract {
          * 展示首页数据问题
          * @param homeBean
          */
-        void showHomeData(HomeBean homeBean);
+        void showHomeData(HomeBean homeBean,int loadType);
 
     }
 

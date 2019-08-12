@@ -3,16 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="@dimen/space_20"
-    android:layout_marginRight="@dimen/space_20"
-    android:layout_marginBottom="@dimen/space_20"
     android:orientation="vertical">
 
 
     <ImageView
-        android:id="@+id/iv_ihv_cover_feed"
+        android:id="@+id/iv_cover_feed"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/space_400"
+        android:layout_height="@dimen/space_500"
         android:scaleType="fitXY" />
 
     <RelativeLayout
@@ -20,7 +17,7 @@
         android:layout_height="60dp">
 
         <ImageView
-            android:id="@+id/iv_ihv_author_icon"
+            android:id="@+id/iv_avatar"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
@@ -33,43 +30,23 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@id/iv_avatar"
             android:layout_toStartOf="@+id/tv_category"
-            android:layout_toEndOf="@id/iv_ihv_author_icon"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_ihv_title"
+                android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
                 android:textColor="@color/black"
                 android:textSize="@dimen/font_size_30px" />
 
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_ihv_author_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/red"
-                    android:textSize="@dimen/font_size_24px" />
-
-
             <TextView
-                android:id="@+id/tv_ihv_des"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:maxLines="1"
+                android:id="@+id/tv_tag"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/font_size_24px" />
-
-
-            </LinearLayout>
-
         </LinearLayout>
 
         <TextView

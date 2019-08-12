@@ -1,5 +1,6 @@
 package com.onexzgj.inspur.onexvedio;
 
+import android.animation.ObjectAnimator;
 import android.graphics.Typeface;
 import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
@@ -43,11 +44,13 @@ public class SplashActivity extends BaseActivity {
     protected void initData() {
 
 
+
+
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.1f,1.0f);
-        alphaAnimation.setDuration(1500);
+        alphaAnimation.setDuration(2000);
         alphaAnimation.setFillAfter(true);
         ScaleAnimation scaleAnimation =new ScaleAnimation(1.0f,1.2f,1.0f,1.2f,ScaleAnimation.RELATIVE_TO_SELF,0.5f,ScaleAnimation.RELATIVE_TO_SELF,0.5f);
-        scaleAnimation.setDuration(1500);
+        scaleAnimation.setDuration(2000);
         scaleAnimation.setFillAfter(true);
 
         AnimationSet animationSet =new AnimationSet(true);

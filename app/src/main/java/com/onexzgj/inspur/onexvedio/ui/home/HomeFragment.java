@@ -10,6 +10,7 @@ import android.widget.AbsListView;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
 import com.onexzgj.inspur.onexvedio.constant.Constant;
@@ -23,13 +24,13 @@ import java.util.List;
 
 import butterknife.BindView;
 
-public class HomeFragment extends BaseFragment<HomePresnter> implements HomeContract.View, SwipeRefreshLayout.OnRefreshListener {
+public class HomeFragment extends BaseFragment<HomePresnter> implements HomeContract.View, SwipeRefreshLayout.OnRefreshListener, BaseQuickAdapter.RequestLoadMoreListener, BaseQuickAdapter.OnItemChildClickListener {
 
 
     @BindView(R.id.rv_fh_home)
     RecyclerView rvFhHome;
     @BindView(R.id.refreshLayout)
-    SwipeRefreshLayout refreshLayout;
+    SwipeRefreshLayout mSrlRefresh;
     private List<HomeBean.IssueListBean.ItemListBean> mDatas = new ArrayList<>();
     private HomeAdapter mHomeAdapter;
     private Banner banner;
@@ -67,9 +68,14 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
         rvFhHome.setAdapter(mHomeAdapter);
         //设置Banner
         mHomeAdapter.addHeaderView(banner);
+        mHomeAdapter.setOnLoadMoreListener(this,rvFhHome);
 
         mPresenter.loadHomeData(1);
-        refreshLayout.setOnRefreshListener(this);
+        mSrlRefresh.setOnRefreshListener(this);
+
+
+        mHomeAdapter.setOnItemChildClickListener(this);
+
 
     }
 
@@ -81,6 +87,11 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
     @Override
     public void showBannerData(HomeBean homeBean) {
+
+        if (mSrlRefresh.isRefreshing()) {
+            mSrlRefresh.setRefreshing(false);
+            hideLoading();
+        }
 
         for (HomeBean.IssueListBean.ItemListBean item : mDatas) {
             if (item.getType().equals("video")) {
@@ -98,15 +109,37 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     }
 
     @Override
-    public void showHomeData(HomeBean homeBean) {
-        mDatas.addAll(homeBean.getIssueList().get(0).getItemList());
-        mHomeAdapter.notifyDataSetChanged();
+    public void showHomeData(HomeBean homeBean, int loadType) {
+
+        List<HomeBean.IssueListBean.ItemListBean> itemList=new ArrayList<>();
+        if (homeBean!=null){
+            itemList = homeBean.getIssueList().get(0).getItemList();
+            itemList.remove(0);
+        }
+
+        setLoadDataResult(mHomeAdapter,mSrlRefresh,itemList,loadType);
+
     }
+
 
     @Override
     public void onRefresh() {
         if (mDatas != null && mDatas.size() > 0)
             mDatas.clear();
         mPresenter.refresh();
+    }
+
+    @Override
+    public void onLoadMoreRequested() {
+        mPresenter.loadMore();
+    }
+
+    @Override
+    public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
+        switch (view.getId()){
+            case R.id.iv_ihv_cover_feed:
+                showToast("点击了...");
+                break;
+        }
     }
 }

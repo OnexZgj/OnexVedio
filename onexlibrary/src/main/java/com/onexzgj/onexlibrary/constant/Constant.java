@@ -7,5 +7,5 @@ public class Constant {
 
     public static final String AIM_URL="AIM_URL";
 
-    public static int PAGE_SIZE=10;
+    public static int PAGE_SIZE=3;
 }
