@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-
-    <com.shuyu.gsyvideoplayer.video.StandardGSYVideoPlayer
-        android:id="@+id/detail_player"
+    <ImageView
+        android:id="@+id/iv_avd_blur"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/space_500" />
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
 
-</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+
+        <com.shuyu.gsyvideoplayer.video.StandardGSYVideoPlayer
+            android:id="@+id/detail_player"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_500" />
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/srl_avd_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/transparent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_avd_related"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"/>
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
+

@@ -11,8 +11,6 @@ import com.onexzgj.onexlibrary.net.RetrofitHelper;
 import com.onexzgj.onexlibrary.utils.RxHelper;
 import com.orhanobut.logger.Logger;
 
-import org.w3c.dom.Text;
-
 import io.reactivex.ObservableSource;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;

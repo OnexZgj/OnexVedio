@@ -177,6 +177,9 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         ft.show(targetFg);
 
         ft.commitAllowingStateLoss();
+
+        setToolbarTitle("首页");
+
     }
 
 

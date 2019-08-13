@@ -29,4 +29,9 @@ public class Constant {
 
     //baseURL
     public static final String BASE_URL = "http://baobab.kaiyanapp.com/api/";
+
+    /**
+     * 播放地址的URL标识
+     */
+    public static String PLAY_VEDIO_URL = "PLAY_VEDIO_URL";
 }

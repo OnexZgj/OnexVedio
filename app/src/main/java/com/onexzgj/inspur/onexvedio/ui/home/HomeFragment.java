@@ -1,19 +1,18 @@
 package com.onexzgj.inspur.onexvedio.ui.home;
 
+import android.content.Intent;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
-import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
 import com.onexzgj.inspur.onexvedio.constant.Constant;
+import com.onexzgj.inspur.onexvedio.ui.activity.detail.VedioActivity;
 import com.onexzgj.inspur.onexvedio.utils.GlideImageLoader;
 import com.onexzgj.onexlibrary.base.BaseFragment;
 import com.youth.banner.Banner;
@@ -31,7 +30,7 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     RecyclerView rvFhHome;
     @BindView(R.id.refreshLayout)
     SwipeRefreshLayout mSrlRefresh;
-    private List<HomeBean.IssueListBean.ItemListBean> mDatas = new ArrayList<>();
+    private List<HomeBean.IssueListBean.ItemListBean> mDatas ;
     private HomeAdapter mHomeAdapter;
     private Banner banner;
 
@@ -52,6 +51,7 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
     @Override
     protected void initView(View view) {
+
 
         mHomeAdapter = new HomeAdapter(mDatas);
         rvFhHome.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -111,13 +111,13 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     @Override
     public void showHomeData(HomeBean homeBean, int loadType) {
 
-        List<HomeBean.IssueListBean.ItemListBean> itemList=new ArrayList<>();
+        mDatas = new ArrayList<>();
         if (homeBean!=null){
-            itemList = homeBean.getIssueList().get(0).getItemList();
-            itemList.remove(0);
+            mDatas = homeBean.getIssueList().get(0).getItemList();
+            mDatas.remove(0);
         }
 
-        setLoadDataResult(mHomeAdapter,mSrlRefresh,itemList,loadType);
+        setLoadDataResult(mHomeAdapter,mSrlRefresh,mDatas,loadType);
 
     }
 
@@ -138,7 +138,19 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
         switch (view.getId()){
             case R.id.iv_ihv_cover_feed:
-                showToast("点击了...");
+                showToast("点击了..." + position);
+
+                showToast(((List<HomeBean.IssueListBean.ItemListBean>)adapter.getData()).get(position).getData().getPlayInfo().get(0).getUrl());
+
+
+                HomeBean.IssueListBean.ItemListBean.DataBean data=  ((List<HomeBean.IssueListBean.ItemListBean>)adapter.getData()).get(position).getData();
+
+                Intent intent=new Intent(getActivity(), VedioActivity.class);
+                intent.putExtra(Constant.PLAY_VEDIO_URL,data);
+
+
+                startActivity(intent);
+
                 break;
         }
     }

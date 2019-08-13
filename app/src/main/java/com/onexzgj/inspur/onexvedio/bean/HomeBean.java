@@ -1,8 +1,9 @@
 package com.onexzgj.inspur.onexvedio.bean;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class HomeBean {
+public class HomeBean  implements Serializable {
 
 
     /**
@@ -16,7 +17,6 @@ public class HomeBean {
     private String nextPageUrl;
     private long nextPublishTime;
     private String newestIssueType;
-    private Object dialog;
     private List<IssueListBean> issueList;
 
     public String getNextPageUrl() {
@@ -43,13 +43,6 @@ public class HomeBean {
         this.newestIssueType = newestIssueType;
     }
 
-    public Object getDialog() {
-        return dialog;
-    }
-
-    public void setDialog(Object dialog) {
-        this.dialog = dialog;
-    }
 
     public List<IssueListBean> getIssueList() {
         return issueList;
@@ -59,7 +52,7 @@ public class HomeBean {
         this.issueList = issueList;
     }
 
-    public static class IssueListBean {
+    public static class IssueListBean implements Serializable {
         /**
          * releaseTime : 1563757200000
          * type : morning
@@ -124,7 +117,7 @@ public class HomeBean {
             this.itemList = itemList;
         }
 
-        public static class ItemListBean {
+        public static class ItemListBean implements Serializable{
             /**
              * type : video
              * data : {"dataType":"VideoBeanForClient","id":51164,"title":"给世界的警告：一个悖论正在撕裂我们","description":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","library":"DAILY","tags":[{"id":744,"name":"每日创意灵感","actionUrl":"eyepetizer://tag/744/?title=%E6%AF%8F%E6%97%A5%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/bc2479c09cd15cb93b69d82e5f21c3fc.png?imageMogr2/quality/60/format/jpg","tagRecType":"IMPORTANT","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":580,"name":"人性","actionUrl":"eyepetizer://tag/580/?title=%E4%BA%BA%E6%80%A7","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","headerImage":"http://img.kaiyanapp.com/de2c7c29deec1a0e8383a1ee295d9747.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":482,"name":"人生感悟","actionUrl":"eyepetizer://tag/482/?title=%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F","adTrack":null,"desc":null,"bgPicture":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/31f217a0db54b356fb709f08732c5e06.jpeg?imageMogr2/quality/60/format/jpg","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0},{"id":2,"name":"创意","actionUrl":"eyepetizer://tag/2/?title=%E5%88%9B%E6%84%8F","adTrack":null,"desc":"技术与审美结合，探索视觉的无限可能","bgPicture":"http://img.kaiyanapp.com/1b457058cf2b317304ff9f70543c040d.png?imageMogr2/quality/60/format/jpg","headerImage":"http://img.kaiyanapp.com/fdefdb34cbe3d2ac9964d306febe9025.jpeg?imageMogr2/quality/100","tagRecType":"NORMAL","childTagList":null,"childTagIdList":null,"communityIndex":0}],"consumption":{"collectionCount":578,"shareCount":200,"replyCount":13},"resourceType":"video","slogan":"WORKING TO SPEND，工作是为了更好地消费","provider":{"name":"Vimeo","alias":"vimeo","icon":"http://img.kaiyanapp.com/c3ad630be461cbb081649c9e21d6cbe3.png"},"category":"创意","author":{"id":2161,"icon":"http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg","name":"开眼创意精选","description":"技术与审美结合，探索视觉的无限可能","link":"","latestReleaseTime":1563757200000,"videoNum":695,"adTrack":null,"follow":{"itemType":"author","itemId":2161,"followed":false},"shield":{"itemType":"author","itemId":2161,"shielded":false},"approvedNotReadyVideoCount":0,"ifPgc":true,"recSort":0,"expert":false},"cover":{"feed":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","detail":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg","blurred":"http://img.kaiyanapp.com/2044974a67e419d9831346be88cd1a34.jpeg?imageMogr2/quality/60/format/jpg","sharing":null,"homepage":"http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"},"playUrl":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss","thumbPlayUrl":"","duration":219,"webUrl":{"raw":"http://www.eyepetizer.net/detail.html?vid=51164","forWeibo":"http://wandou.im/3obmeq"},"releaseTime":1563757200000,"playInfo":[{"height":482,"width":854,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss","size":23281574},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=qcloud&playUrlType=url_oss","size":23281574},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss","size":23281574}],"name":"标清","type":"normal","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss"},{"height":720,"width":1278,"urlList":[{"name":"aliyun","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss","size":35943994},{"name":"qcloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=qcloud&playUrlType=url_oss","size":35943994},{"name":"ucloud","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss","size":35943994}],"name":"高清","type":"high","url":"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss"}],"campaign":null,"waterMarks":null,"ad":false,"adTrack":null,"type":"NORMAL","titlePgc":"","descriptionPgc":"","remark":"","ifLimitVideo":false,"searchWeight":0,"idx":0,"shareAdTrack":null,"favoriteAdTrack":null,"webAdTrack":null,"date":1563757200000,"promotion":null,"label":null,"labelList":[],"descriptionEditor":"不知道你注意到没有，短片封面上的信用卡卡号写着「WORKING TO SPEND」\u2014\u2014「工作是为了更好地消费」。\n英国伦敦动效设计师 Thom Haig 用这支「Other Side」短片向世界发出警告。人类的能力是无穷的，更加没有极限的是欲望。当一个集体增长了同一个欲望时，就会带来集体的憎恨\u2014\u2014战争。于是，世界被分裂。作者称，这条短片是「对精英领导论和个人主义的质疑。希望在我们思考这个世界怎么了的时候，有新的视角和思路。」From ThomHaig","collected":false,"played":false,"subtitles":[],"lastViewTime":null,"playlists":null,"src":null}
@@ -135,7 +128,6 @@ public class HomeBean {
 
             private String type;
             private DataBean data;
-            private Object tag;
             private int id;
             private int adIndex;
 
@@ -155,14 +147,6 @@ public class HomeBean {
                 this.data = data;
             }
 
-            public Object getTag() {
-                return tag;
-            }
-
-            public void setTag(Object tag) {
-                this.tag = tag;
-            }
-
             public int getId() {
                 return id;
             }
@@ -179,7 +163,7 @@ public class HomeBean {
                 this.adIndex = adIndex;
             }
 
-            public static class DataBean {
+            public static class DataBean implements Serializable {
                 /**
                  * dataType : VideoBeanForClient
                  * id : 51164
@@ -626,7 +610,7 @@ public class HomeBean {
                     this.subtitles = subtitles;
                 }
 
-                public static class ConsumptionBean {
+                public static class ConsumptionBean implements Serializable  {
                     /**
                      * collectionCount : 578
                      * shareCount : 200
@@ -662,7 +646,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class ProviderBean {
+                public static class ProviderBean implements Serializable {
                     /**
                      * name : Vimeo
                      * alias : vimeo
@@ -698,7 +682,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class AuthorBean {
+                public static class AuthorBean implements  Serializable {
                     /**
                      * id : 2161
                      * icon : http://img.kaiyanapp.com/f4a9aba1c6857ee0cefcdc5aee0a1fc9.png?imageMogr2/quality/60/format/jpg
@@ -843,7 +827,7 @@ public class HomeBean {
                         this.expert = expert;
                     }
 
-                    public static class FollowBean {
+                    public static class FollowBean implements Serializable {
                         /**
                          * itemType : author
                          * itemId : 2161
@@ -879,7 +863,7 @@ public class HomeBean {
                         }
                     }
 
-                    public static class ShieldBean {
+                    public static class ShieldBean implements  Serializable {
                         /**
                          * itemType : author
                          * itemId : 2161
@@ -916,7 +900,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class CoverBean {
+                public static class CoverBean implements  Serializable{
                     /**
                      * feed : http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg
                      * detail : http://img.kaiyanapp.com/cf30ad083aee578adc676346da3078db.jpeg?imageMogr2/quality/60/format/jpg
@@ -972,7 +956,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class WebUrlBean {
+                public static class WebUrlBean implements Serializable {
                     /**
                      * raw : http://www.eyepetizer.net/detail.html?vid=51164
                      * forWeibo : http://wandou.im/3obmeq
@@ -998,7 +982,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class TagsBean {
+                public static class TagsBean implements Serializable{
                     /**
                      * id : 744
                      * name : 每日创意灵感
@@ -1114,7 +1098,7 @@ public class HomeBean {
                     }
                 }
 
-                public static class PlayInfoBean {
+                public static class PlayInfoBean implements Serializable {
                     /**
                      * height : 482
                      * width : 854
@@ -1179,7 +1163,7 @@ public class HomeBean {
                         this.urlList = urlList;
                     }
 
-                    public static class UrlListBean {
+                    public static class UrlListBean  implements Serializable{
                         /**
                          * name : aliyun
                          * url : http://baobab.kaiyanapp.com/api/v1/playUrl?vid=51164&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss

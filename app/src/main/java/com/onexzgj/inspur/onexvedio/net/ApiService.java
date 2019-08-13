@@ -2,6 +2,7 @@ package com.onexzgj.inspur.onexvedio.net;
 
 
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
+import com.onexzgj.inspur.onexvedio.bean.Related;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
@@ -24,6 +25,24 @@ public interface ApiService {
      */
     @GET
     Observable<HomeBean> getMoreHomeData(@Url String url);
+
+    /**
+     * 获取视频分类
+     * @return
+     */
+    @GET("v4/categories/videoList?")
+    Observable<HomeBean> getCategories( @Query("id") Long  id);
+
+
+    /**
+     * 获取视频相关信息
+     * @param id
+     * @return
+     */
+    @GET("v4/video/related?")
+    Observable<Related> getRelated(@Query("id") Long  id);
+
+
 
 
 }

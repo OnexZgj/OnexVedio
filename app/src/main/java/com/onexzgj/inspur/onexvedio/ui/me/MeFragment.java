@@ -4,8 +4,7 @@ import android.content.Intent;
 import android.view.View;
 
 import com.onexzgj.inspur.onexvedio.R;
-import com.onexzgj.inspur.onexvedio.ui.activity.VedioActivity;
-import com.onexzgj.inspur.onexvedio.ui.home.HomeFragment;
+import com.onexzgj.inspur.onexvedio.ui.activity.detail.VedioActivity;
 import com.onexzgj.onexlibrary.base.BaseContract;
 import com.onexzgj.onexlibrary.base.BaseFragment;
 

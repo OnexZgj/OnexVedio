@@ -30,7 +30,7 @@
 
         </activity>
 
-        <activity android:name=".ui.activity.VedioActivity"/>
+        <activity android:name=".ui.activity.detail.VedioActivity"/>
     </application>
 
 </manifest>
