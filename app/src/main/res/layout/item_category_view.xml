@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_400"
+    android:layout_margin="@dimen/space_4">
+
+
+    <ImageView
+        android:id="@+id/iv_icv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+
+    <TextView
+        android:id="@+id/tv_icv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_48px"
+        android:text="fasdf "/>
+
+</FrameLayout>

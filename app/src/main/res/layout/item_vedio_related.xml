@@ -54,9 +54,10 @@
 
 
             <ImageView
+                android:id="@+id/iv_ivr_share"
                 android:layout_width="@dimen/space_80"
                 android:layout_height="@dimen/space_80"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/share_icon"/>
 
 
         </LinearLayout>

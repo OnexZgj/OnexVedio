@@ -1,12 +1,14 @@
 package com.onexzgj.inspur.onexvedio.ui.home;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.LinearLayout;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.onexzgj.inspur.onexvedio.R;
@@ -17,6 +19,7 @@ import com.onexzgj.inspur.onexvedio.utils.GlideImageLoader;
 import com.onexzgj.onexlibrary.base.BaseFragment;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
+import com.youth.banner.Transformer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,10 +37,7 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
     private HomeAdapter mHomeAdapter;
     private Banner banner;
 
-    /**
-     * Banner图片合集
-     */
-    private List<String> images = new ArrayList<>();
+
 
     public static HomeFragment getInstance() {
         return new HomeFragment();
@@ -58,12 +58,21 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
 
         banner = new Banner(getActivity());
-        banner.setLayoutParams(new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500));
+
+        AbsListView.LayoutParams layoutParams = new AbsListView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500);
+
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 500);
+        params.setMargins(10,10,10,40);
+
+
+        banner.setLayoutParams(params);
 
 
         //设置图片加载器
         banner.setImageLoader(new GlideImageLoader());
-        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
+        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE_INSIDE);
+
+        banner.setBannerAnimation(Transformer.ZoomOutSlide);
 
         rvFhHome.setAdapter(mHomeAdapter);
         //设置Banner
@@ -93,16 +102,28 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
             hideLoading();
         }
 
+        ArrayList<String> titles =new ArrayList<>();
+        /**
+         * Banner图片合集
+         */
+         List<String> images = new ArrayList<>();
+
         for (HomeBean.IssueListBean.ItemListBean item : mDatas) {
             if (item.getType().equals("video")) {
-                if (item.getData().getCover().getDetail() != null)
+                if (item.getData().getCover().getDetail() != null && item.getData().getTitle()!=null)
+                    titles.add(item.getData().getTitle());
                     images.add(item.getData().getCover().getDetail());
             }
         }
 
+
+
         if (images != null && images.size() > 0) {
+
+            banner.setBannerTitles(titles);
             //设置图片集合
             banner.setImages(images);
+
             //banner设置方法全部调用完毕时最后调用
             banner.start();
         }
@@ -142,15 +163,11 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
 
                 showToast(((List<HomeBean.IssueListBean.ItemListBean>)adapter.getData()).get(position).getData().getPlayInfo().get(0).getUrl());
 
-
                 HomeBean.IssueListBean.ItemListBean.DataBean data=  ((List<HomeBean.IssueListBean.ItemListBean>)adapter.getData()).get(position).getData();
 
                 Intent intent=new Intent(getActivity(), VedioActivity.class);
                 intent.putExtra(Constant.PLAY_VEDIO_URL,data);
-
-
                 startActivity(intent);
-
                 break;
         }
     }

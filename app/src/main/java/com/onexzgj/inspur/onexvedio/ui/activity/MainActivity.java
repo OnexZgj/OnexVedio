@@ -15,7 +15,7 @@ import android.view.MenuItem;
 import android.widget.FrameLayout;
 
 import com.onexzgj.inspur.onexvedio.R;
-import com.onexzgj.inspur.onexvedio.ui.attention.AttentionFragment;
+import com.onexzgj.inspur.onexvedio.ui.category.CategoryFragment;
 import com.onexzgj.inspur.onexvedio.ui.find.FindFragment;
 import com.onexzgj.inspur.onexvedio.ui.home.HomeFragment;
 import com.onexzgj.inspur.onexvedio.ui.me.MeFragment;
@@ -62,7 +62,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
 
         mFragments = new ArrayList<>();
         mFragments.add(HomeFragment.getInstance());
-        mFragments.add(AttentionFragment.getInstance());
+        mFragments.add(CategoryFragment.getInstance());
         mFragments.add(FindFragment.getInstance());
         mFragments.add(MeFragment.getInstance());
         switchFragment(0);

@@ -1,8 +1,11 @@
 package com.onexzgj.inspur.onexvedio.net;
 
 
+import com.onexzgj.inspur.onexvedio.bean.CategoryBean;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
 import com.onexzgj.inspur.onexvedio.bean.Related;
+
+import java.util.ArrayList;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
@@ -27,11 +30,19 @@ public interface ApiService {
     Observable<HomeBean> getMoreHomeData(@Url String url);
 
     /**
-     * 获取视频分类
+     * 获取视频分类下的数据
      * @return
      */
     @GET("v4/categories/videoList?")
-    Observable<HomeBean> getCategories( @Query("id") Long  id);
+    Observable<HomeBean> getCategoriesInfo( @Query("id") Long  id);
+
+
+    /**
+     * 获取分类列表
+     * @return
+     */
+    @GET("v4/categories")
+    Observable<ArrayList<CategoryBean>> getCategories( );
 
 
     /**

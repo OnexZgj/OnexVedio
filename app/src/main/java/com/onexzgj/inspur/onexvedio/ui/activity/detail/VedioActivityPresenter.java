@@ -28,19 +28,13 @@ public class VedioActivityPresenter extends BasePresenter<VedioActivityContract.
         RetrofitHelper.createApi(ApiService.class).getRelated(id)
                 .compose(mView.<Related>bindToLife())
                 .compose(RxHelper.<Related>rxSchedulerHelper())
-                .subscribe(new Consumer<Related>() {
-                    @Override
-                    public void accept(Related related) throws Exception {
-                        mView.showRelated(related, LoadType.TYPE_LOAD_MORE_SUCCESS);
-                        mView.hideLoading();
-                    }
-                }, new Consumer<Throwable>() {
-                    @Override
-                    public void accept(Throwable throwable) throws Exception {
-                        Logger.e(throwable.getMessage().toString());
-                        mView.hideLoading();
-                        mView.showToast("服务器出错了....");
-                    }
+                .subscribe(related -> {
+                    mView.showRelated(related, LoadType.TYPE_REFRESH_SUCCESS);
+                    mView.hideLoading();
+                }, throwable -> {
+                    Logger.e(throwable.getMessage());
+                    mView.hideLoading();
+                    mView.showToast("服务器出错了....");
                 });
 
 

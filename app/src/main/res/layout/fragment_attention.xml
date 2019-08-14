@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-
-    <TextView
+    <com.onexzgj.inspur.onexvedio.widget.SHSwipeRefreshLayout
+        android:id="@+id/ssrl_refresh"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="关注"/>
+        android:layout_height="match_parent"
+        app:guidance_text_color="@color/colorPrimary"
+        app:guidance_view_bg_color="@color/transparent"
+        app:load_text="加载更多"
+        app:progress_bar_color="@color/colorPrimary"
+        app:refresh_text="下拉刷新">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fa_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.onexzgj.inspur.onexvedio.widget.SHSwipeRefreshLayout>
+
 </LinearLayout>

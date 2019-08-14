@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +24,7 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import cn.bingoogolapple.refreshlayout.BGARefreshLayout;
 
 /**
  * author: OnexZgj
@@ -111,7 +113,11 @@ public abstract class BaseFragment<T extends BaseContract.BasePresenter> extends
         if (mProgressDialog ==null){
             mProgressDialog = new ProgressDialog(getContext(), 0);
         }
-        mProgressDialog.setMessage(msg);
+        if (TextUtils.isEmpty(msg)) {
+            mProgressDialog.setMessage("正在加载中...");
+        }else{
+            mProgressDialog.setMessage(msg);
+        }
         mProgressDialog.setCanceledOnTouchOutside(true);
         mProgressDialog.show();
     }
@@ -179,6 +185,38 @@ public abstract class BaseFragment<T extends BaseContract.BasePresenter> extends
                 break;
             case LoadType.TYPE_REFRESH_ERROR:
                 refreshLayout.setRefreshing(false);
+                break;
+            case LoadType.TYPE_LOAD_MORE_SUCCESS:
+                if (list != null) baseQuickAdapter.addData(list);
+                break;
+            case LoadType.TYPE_LOAD_MORE_ERROR:
+                baseQuickAdapter.loadMoreFail();
+                break;
+        }
+        if (list == null || list.isEmpty() || list.size() < Constant.PAGE_SIZE) {
+            baseQuickAdapter.loadMoreEnd(false);
+        } else {
+            baseQuickAdapter.loadMoreComplete();
+        }
+    }
+
+
+    /**
+     * 设置加载数据结果
+     *
+     * @param baseQuickAdapter
+     * @param refreshLayout
+     * @param list
+     * @param loadType
+     */
+    protected void setLoadingDataResult(BaseQuickAdapter baseQuickAdapter, BGARefreshLayout refreshLayout, List list, @LoadType.checker int loadType) {
+        switch (loadType) {
+            case LoadType.TYPE_REFRESH_SUCCESS:
+                baseQuickAdapter.setNewData(list);
+                refreshLayout.endRefreshing();
+                break;
+            case LoadType.TYPE_REFRESH_ERROR:
+                refreshLayout.endRefreshing();
                 break;
             case LoadType.TYPE_LOAD_MORE_SUCCESS:
                 if (list != null) baseQuickAdapter.addData(list);

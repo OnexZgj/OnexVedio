@@ -22,7 +22,7 @@ import java.util.List;
 
 import butterknife.BindView;
 
-public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> implements VedioActivityContract.View {
+public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> implements VedioActivityContract.View, SwipeRefreshLayout.OnRefreshListener {
 
 
     @BindView(R.id.detail_player)
@@ -37,7 +37,7 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
     private OrientationUtils orientationUtils;
 
 
-    List<Related.ItemListBean> mDatas =new ArrayList<>();
+    List<Related.ItemListBean> mDatas = new ArrayList<>();
 
     /**
      * 播放视频的地址
@@ -56,24 +56,21 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
 
         if (getIntent() != null) {
             vedioData = (HomeBean.IssueListBean.ItemListBean.DataBean) getIntent().getSerializableExtra(Constant.PLAY_VEDIO_URL);
-            playVedioUrl=vedioData.getPlayUrl();
+            playVedioUrl = vedioData.getPlayUrl();
         }
 
         if (null != vedioData) {
             videoPlayer.setUp(playVedioUrl, true, vedioData.getTitle());
         }
 
+        srlAvdRefresh.setOnRefreshListener(this);
 
         Glide.with(this).load(vedioData.getCover().getBlurred()).into(ivAvdBlur);
 
-
         vedioAdapter = new VedioAdapter(mDatas);
-
 
         rvAvdRelated.setLayoutManager(new LinearLayoutManager(this));
         rvAvdRelated.setAdapter(vedioAdapter);
-
-
 
         //增加封面
         ImageView imageView = new ImageView(this);
@@ -107,7 +104,6 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
     }
 
 
-
     @Override
     public void onBackPressed() {
         //先返回正常状态
@@ -126,6 +122,14 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
         mPresenter.loadRelatedData(vedioData.getId());
     }
 
+
+    @Override
+    public void onRefresh() {
+        if (vedioData != null)
+            mPresenter.loadRelatedData(vedioData.getId());
+    }
+
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_vedio_detail;
@@ -137,12 +141,14 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
     }
 
     @Override
-    public void showRelated(Related relatedBean,int loadType) {
+    public void showRelated(Related relatedBean, int loadType) {
 
-         relatedBean.getItemList().remove(0);
-        mDatas =relatedBean.getItemList();
+        if (srlAvdRefresh.isRefreshing())
+            srlAvdRefresh.setRefreshing(false);
+        relatedBean.getItemList().remove(0);
+        mDatas = relatedBean.getItemList();
 
-        setLoadDataResult(vedioAdapter,srlAvdRefresh,mDatas,loadType);
+        setLoadDataResult(vedioAdapter, srlAvdRefresh, mDatas, loadType);
     }
 
 
@@ -164,7 +170,6 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
         if (orientationUtils != null)
             orientationUtils.releaseListener();
     }
-
 
 
 }
