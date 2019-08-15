@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_ivc_category"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_80"
+        android:gravity="center_vertical"
+        android:text="近期热门" />
+
+
+    <ImageView
+        android:id="@+id/iv_ivc_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_500"
+        android:scaleType="fitXY"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_ivc_author"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/tv_category"
+            android:layout_toEndOf="@id/iv_ivc_author"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ivc_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_30px" />
+
+            <TextView
+                android:id="@+id/tv_ivc_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_24px" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_ivc_share"
+            android:layout_width="@dimen/space_60"
+            android:layout_height="@dimen/space_60"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/share_icon" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fl_ivc_tag_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_ivc_tag1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_200"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:layout_marginBottom="@dimen/space_20"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/iv_ivc_icon1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:padding="@dimen/space_20">
+
+
+                    <TextView
+                        android:id="@+id/tv_ivc_title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textSize="@dimen/font_size_24px" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_80"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_ivc_category1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:textColor="@color/red" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_ivc_share1"
+                            android:layout_width="12dp"
+                            android:layout_height="6dp"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/share_icon" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_ivc_tag2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_200"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:layout_marginBottom="@dimen/space_20"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/iv_ivc_icon2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:padding="@dimen/space_20">
+
+
+                    <TextView
+                        android:id="@+id/tv_ivc_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textSize="@dimen/font_size_24px" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_80"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_ivc_category2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom"
+                            android:textColor="@color/red" />
+
+
+                        <ImageView
+                            android:id="@+id/iv_ivc_share2"
+                            android:layout_width="@dimen/space_28"
+                            android:layout_height="@dimen/space_28"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/share_icon" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

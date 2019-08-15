@@ -31,7 +31,22 @@ public class Constant {
     public static final String BASE_URL = "http://baobab.kaiyanapp.com/api/";
 
     /**
+     * 传递分类的ID
+     */
+    public static final String CATEGORY_ID = "category_id";
+
+    /**
+     * 分类视频的头图片的ID
+     */
+    public static final String CATEGORY_BG_ID = "category_bg_id";
+
+    /**
+     * 分类视频的名称
+     */
+    public static final String CATEGORY_NAME = "category_name";
+
+    /**
      * 播放地址的URL标识
      */
-    public static String PLAY_VEDIO_URL = "PLAY_VEDIO_URL";
+    public static String PLAY_VEDIO_URL = "play_vedio_url";
 }

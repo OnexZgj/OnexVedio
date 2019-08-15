@@ -33,8 +33,20 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
     private NestedScrollingParentHelper parentHelper;
     private SHSOnRefreshListener onRefreshListener;
 
+    /**
+     * 正在下拉的状态，没有超过刷新界限
+     */
     public static final int NOT_OVER_TRIGGER_POINT = 1;
+
+
+    /**
+     * 超过了刷新的界限
+     */
     public static final int OVER_TRIGGER_POINT = 2;
+
+    /**
+     * 正在刷新中
+     */
     public static final int START = 3;
 
     /**
@@ -351,6 +363,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
             }
             headerView.setLayoutParams(lp);
             headerView.setProgressRotation(lp.height / guidanceViewFlowHeight);
+            headerView.setScale(lp.height/guidanceViewFlowHeight);
             moveTargetView(lp.height);
             return true;
         } else if (!canChildScrollDown() && mPullLoadEnable && mCurrentAction == ACTION_LOADMORE) {

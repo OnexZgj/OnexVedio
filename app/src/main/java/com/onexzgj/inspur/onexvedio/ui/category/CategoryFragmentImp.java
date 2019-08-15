@@ -33,6 +33,6 @@ public class CategoryFragmentImp extends BasePresenter<CategoryContract.View> im
 
     @Override
     public void refresh() {
-
+        loadData();
     }
 }

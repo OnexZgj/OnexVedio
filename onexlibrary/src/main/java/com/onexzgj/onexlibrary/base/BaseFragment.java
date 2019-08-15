@@ -24,7 +24,6 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import cn.bingoogolapple.refreshlayout.BGARefreshLayout;
 
 /**
  * author: OnexZgj
@@ -199,38 +198,5 @@ public abstract class BaseFragment<T extends BaseContract.BasePresenter> extends
             baseQuickAdapter.loadMoreComplete();
         }
     }
-
-
-    /**
-     * 设置加载数据结果
-     *
-     * @param baseQuickAdapter
-     * @param refreshLayout
-     * @param list
-     * @param loadType
-     */
-    protected void setLoadingDataResult(BaseQuickAdapter baseQuickAdapter, BGARefreshLayout refreshLayout, List list, @LoadType.checker int loadType) {
-        switch (loadType) {
-            case LoadType.TYPE_REFRESH_SUCCESS:
-                baseQuickAdapter.setNewData(list);
-                refreshLayout.endRefreshing();
-                break;
-            case LoadType.TYPE_REFRESH_ERROR:
-                refreshLayout.endRefreshing();
-                break;
-            case LoadType.TYPE_LOAD_MORE_SUCCESS:
-                if (list != null) baseQuickAdapter.addData(list);
-                break;
-            case LoadType.TYPE_LOAD_MORE_ERROR:
-                baseQuickAdapter.loadMoreFail();
-                break;
-        }
-        if (list == null || list.isEmpty() || list.size() < Constant.PAGE_SIZE) {
-            baseQuickAdapter.loadMoreEnd(false);
-        } else {
-            baseQuickAdapter.loadMoreComplete();
-        }
-    }
-
 
 }

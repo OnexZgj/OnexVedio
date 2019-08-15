@@ -3,7 +3,9 @@ package com.onexzgj.inspur.onexvedio.widget;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.support.annotation.LayoutRes;
+import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,16 +42,29 @@ public class MyRefreshView extends LinearLayout {
 
     private void setupViews() {
         this.setOrientation(HORIZONTAL);
-        this.setGravity(17);
+        this.setGravity(Gravity.CENTER);
+
+        LinearLayout.LayoutParams lp = new LayoutParams((int) DipUtils.dipToPx(this.getContext(), 36.0F), (int)DipUtils.dipToPx(this.getContext(), 36.0F));
+
         this.circleProgressBar = new SHCircleProgressBar(this.getContext());
+
+
+        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+                LayoutParams.MATCH_PARENT);
+
+
         this.jdImageView=new ImageView(this.getContext());
 
-        this.jdImageView.setBackground(getResources().getDrawable(R.drawable.animation_list_refresh_jd));
+        jdImageView.setLayoutParams(params);
 
-        this.animationDrawable= (AnimationDrawable) jdImageView.getBackground();
+        this.jdImageView.setImageDrawable(getResources().getDrawable(R.drawable.animation_list_refresh_jd));
+        jdImageView.setMaxHeight(this.getHeight());
+        this.animationDrawable= (AnimationDrawable) jdImageView.getDrawable();
         this.addView(this.jdImageView);
-        LinearLayout.LayoutParams lp = new LayoutParams((int) DipUtils.dipToPx(this.getContext(), 36.0F), (int)DipUtils.dipToPx(this.getContext(), 36.0F));
+
+
         lp.rightMargin = (int)DipUtils.dipToPx(this.getContext(), 10.0F);
+        lp.leftMargin=(int)DipUtils.dipToPx(this.getContext(), 10.0F);
         this.addView(this.circleProgressBar, lp);
         this.tvLoad = new TextView(this.getContext());
         this.addView(this.tvLoad);
@@ -129,6 +144,15 @@ public class MyRefreshView extends LinearLayout {
         if (this.circleProgressBar != null) {
             this.circleProgressBar.setProgressRotation(rotation);
         }
+    }
+
+    public void setScale(float scale){
+
+        scale = 0.3f + 0.7f * scale;
+        ViewCompat.setScaleX(jdImageView, scale);
+        //设置锚点
+//        ViewCompat.setPivotY(jdImageView, jdImageView.getHeight());
+        ViewCompat.setScaleY(jdImageView, scale);
 
     }
 }
