@@ -5,7 +5,6 @@ import android.support.v7.widget.RecyclerView;
 
 import android.view.View;
 
-
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.bean.FollowBeans;
 import com.onexzgj.inspur.onexvedio.widget.SHSwipeRefreshLayout;
