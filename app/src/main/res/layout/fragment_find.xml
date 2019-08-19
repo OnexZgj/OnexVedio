@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rl_ff_refresh"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-
-    <android.support.v4.widget.SwipeRefreshLayout
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_ff_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="40dp"
+        android:background="@color/white"
+        app:tabIndicatorColor="#000"
+        app:tabIndicatorHeight="2dp"
+        app:tabMinWidth="10dp"
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv_fh_find"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        app:tabSelectedTextColor="#000"
+        app:tabTextColor="#5000" />
 
-    </android.support.v4.widget.SwipeRefreshLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_2"
+        android:background="@color/gray" />
 
 
-</FrameLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_ff_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

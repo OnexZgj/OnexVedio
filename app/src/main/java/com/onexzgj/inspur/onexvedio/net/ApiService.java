@@ -3,6 +3,7 @@ package com.onexzgj.inspur.onexvedio.net;
 
 import com.onexzgj.inspur.onexvedio.bean.CategoryBean;
 import com.onexzgj.inspur.onexvedio.bean.CategoryInfo;
+import com.onexzgj.inspur.onexvedio.bean.FollowBeans;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
 import com.onexzgj.inspur.onexvedio.bean.Related;
 
@@ -54,6 +55,17 @@ public interface ApiService {
      */
     @GET("v4/video/related?")
     Observable<Related> getRelated(@Query("id") Long id);
+
+
+//    http://baobab.kaiyanapp.com/api/v4/tabs/follow
+
+
+    /**
+     * 获取关注信息
+     * @return
+     */
+    @GET("v4/tabs/follow")
+    Observable<FollowBeans> getFollow();
 
 
 }

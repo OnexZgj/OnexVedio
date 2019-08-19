@@ -50,12 +50,6 @@ public class CategoryFragment extends BaseFragment<CategoryFragmentImp> implemen
     @Override
     protected void initView(View view) {
 
-
-        View inflate = View.inflate(getContext(), R.layout.item_refresh_head_view, null);
-
-        ImageView ivIrhvRefresh = inflate.findViewById(R.id.iv_irhv_refresh);
-
-
         ssrlRefresh.setLoadmoreEnable(false);
 //        ssrlRefresh.setHeaderView(new MyRefreshView(getContext()));
 

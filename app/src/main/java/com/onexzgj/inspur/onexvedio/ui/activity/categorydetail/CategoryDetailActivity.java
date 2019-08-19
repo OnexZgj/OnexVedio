@@ -1,6 +1,5 @@
 package com.onexzgj.inspur.onexvedio.ui.activity.categorydetail;
 
-import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
@@ -22,7 +21,7 @@ import com.onexzgj.onexlibrary.base.BaseMvpActivity;
 
 import butterknife.BindView;
 
-public class CategoryDetailActivity extends BaseMvpActivity<CategoryActivityPresenter> implements CategoryActivityContract.View {
+public class CategoryDetailActivity extends BaseMvpActivity<CategoryActivityPresenter> implements CategoryActivityContract.View, SwipeRefreshLayout.OnRefreshListener {
 
 
     @BindView(R.id.iv_acd_head)
@@ -76,7 +75,7 @@ public class CategoryDetailActivity extends BaseMvpActivity<CategoryActivityPres
         rvAcdCategory.setLayoutManager(new LinearLayoutManager(this));
         rvAcdCategory.setAdapter(mCategoryAdapter);
 
-
+        srlAcdRefresh.setOnRefreshListener(this);
     }
 
     @Override
@@ -96,8 +95,14 @@ public class CategoryDetailActivity extends BaseMvpActivity<CategoryActivityPres
 
     @Override
     public void showCategoryInfo(CategoryInfo categoryInfo, int loadType) {
+        if (srlAcdRefresh.isRefreshing())
+            srlAcdRefresh.setRefreshing(false);
         setLoadDataResult(mCategoryAdapter, srlAcdRefresh, categoryInfo.getItemList(), loadType);
     }
 
 
+    @Override
+    public void onRefresh() {
+        mPresenter.refresh();
+    }
 }

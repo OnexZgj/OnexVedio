@@ -37,7 +37,6 @@
                     android:id="@+id/iv_acd_head"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/space_500"
-                    android:layout_margin="@dimen/space_20"
                     android:scaleType="fitXY" />
 
             </LinearLayout>

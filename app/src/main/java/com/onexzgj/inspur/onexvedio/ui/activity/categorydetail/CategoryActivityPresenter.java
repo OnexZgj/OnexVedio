@@ -42,6 +42,6 @@ public class CategoryActivityPresenter extends BasePresenter<CategoryActivityCon
 
     @Override
     public void refresh() {
-
+        loadCategoryData(anInt);
     }
 }

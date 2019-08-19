@@ -9,11 +9,11 @@ import com.orhanobut.logger.Logger;
 
 import io.reactivex.functions.Consumer;
 
-public class HomePresnter extends BasePresenter<HomeContract.View> implements HomeContract.Presenter{
+public class FindPresnter extends BasePresenter<FindContract.View> implements FindContract.Presenter{
 
     private int mCid=0;
 
-    public HomePresnter(HomeContract.View view) {
+    public FindPresnter(FindContract.View view) {
         this.mView=view;
     }
 
