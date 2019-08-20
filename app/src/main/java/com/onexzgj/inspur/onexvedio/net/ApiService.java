@@ -5,6 +5,7 @@ import com.onexzgj.inspur.onexvedio.bean.CategoryBean;
 import com.onexzgj.inspur.onexvedio.bean.CategoryInfo;
 import com.onexzgj.inspur.onexvedio.bean.FollowBeans;
 import com.onexzgj.inspur.onexvedio.bean.HomeBean;
+import com.onexzgj.inspur.onexvedio.bean.RankBean;
 import com.onexzgj.inspur.onexvedio.bean.Related;
 
 import java.util.ArrayList;
@@ -48,7 +49,6 @@ public interface ApiService {
 
 
     /**
-
      * 获取视频相关信息
      * @param id
      * @return
@@ -57,15 +57,25 @@ public interface ApiService {
     Observable<Related> getRelated(@Query("id") Long id);
 
 
-//    http://baobab.kaiyanapp.com/api/v4/tabs/follow
-
 
     /**
+     *  http://baobab.kaiyanapp.com/api/v4/tabs/follow
      * 获取关注信息
      * @return
      */
     @GET("v4/tabs/follow")
     Observable<FollowBeans> getFollow();
+
+
+
+
+    /**
+     * http://baobab.kaiyanapp.com/api/v4/rankList/videos?strategy=monthly     monthly   weekly
+     * 获取月排行榜
+     * @return
+     */
+    @GET("v4/rankList/videos?")
+    Observable<RankBean> getRankInfo(@Query("strategy") String strategy);
 
 
 }

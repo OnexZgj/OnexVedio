@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.ui.category.CategoryFragment;
 import com.onexzgj.inspur.onexvedio.ui.find.FindFragment;
+import com.onexzgj.inspur.onexvedio.ui.find.rank.RankFragment;
 import com.onexzgj.inspur.onexvedio.ui.home.HomeFragment;
 import com.onexzgj.inspur.onexvedio.ui.me.MeFragment;
 import com.onexzgj.onexlibrary.base.BaseActivity;
@@ -57,17 +58,16 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
     @Override
     protected void initData() {
 
-
         getPersimmions();
 
         mFragments = new ArrayList<>();
         mFragments.add(HomeFragment.getInstance());
         mFragments.add(CategoryFragment.getInstance());
         mFragments.add(FindFragment.getInstance());
+        mFragments.add(RankFragment.getInstance());
         mFragments.add(MeFragment.getInstance());
         switchFragment(0);
     }
-
 
 
     @TargetApi(23)
@@ -100,14 +100,14 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
     @TargetApi(23)
     private boolean addPermission(ArrayList<String> permissionsList, String permission) {
         if (checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED) { // 如果应用没有获得对应权限,则添加到列表中,准备批量申请
-            if (shouldShowRequestPermissionRationale(permission)){
+            if (shouldShowRequestPermissionRationale(permission)) {
                 return true;
-            }else{
+            } else {
                 permissionsList.add(permission);
                 return false;
             }
 
-        }else{
+        } else {
             return true;
         }
     }
@@ -140,8 +140,13 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
                 switchFragment(2);
                 setToolbarTitle("发现");
                 break;
-            case R.id.navigation_me:
+
+            case R.id.navigation_rank:
                 switchFragment(3);
+                setToolbarTitle("排行");
+                break;
+            case R.id.navigation_me:
+                switchFragment(4);
                 setToolbarTitle("我的");
                 break;
         }

@@ -15,6 +15,7 @@ import com.onexzgj.inspur.onexvedio.bean.CategoryBean;
 import com.onexzgj.inspur.onexvedio.bean.FollowBeans;
 import com.onexzgj.inspur.onexvedio.constant.Constant;
 import com.onexzgj.inspur.onexvedio.ui.activity.detail.VedioActivity;
+import com.onexzgj.inspur.onexvedio.ui.rankinfo.RankInfoTagAdapter;
 import com.onexzgj.inspur.onexvedio.widget.BannerLayout;
 import com.onexzgj.onexlibrary.GlobalApplication;
 
@@ -43,7 +44,7 @@ public class FollowAdapter extends BaseQuickAdapter<FollowBeans.ItemListBeanX,Ba
 
         List<FollowBeans.ItemListBeanX.DataBeanX.ItemListBean> itemList = item.getData().getItemList();
 
-        ItemFollowAdapter itemFollowAdapter = new ItemFollowAdapter(itemList);
+        RankInfoTagAdapter itemFollowAdapter = new RankInfoTagAdapter(itemList);
 //        rvIfRecycleView.setLayoutManager(new LinearLayoutManager(GlobalApplication.getContext(),LinearLayoutManager.HORIZONTAL,false));
 
         rvIfRecycleView.setAdapter(itemFollowAdapter);
