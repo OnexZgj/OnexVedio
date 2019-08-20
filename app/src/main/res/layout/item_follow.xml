@@ -58,6 +58,7 @@
             android:paddingStart="@dimen/space_10"
             android:paddingTop="3dp"
             android:textColor="@color/black"
+            android:text="+关注"
             android:textSize="@dimen/font_size_20px" />
 
     </RelativeLayout>

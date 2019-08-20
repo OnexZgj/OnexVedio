@@ -4,6 +4,7 @@ import android.content.pm.ActivityInfo;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -43,7 +44,17 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
      * 播放视频的地址
      */
     private String playVedioUrl = "";
-    private HomeBean.IssueListBean.ItemListBean.DataBean vedioData;
+    /**
+     * 播放视频的标题
+     */
+    private String playVedioTitle = "";
+
+    private long playVedioId = 0;
+
+    private String playVedioFeed = "";
+
+
+    //    private HomeBean.IssueListBean.ItemListBean.DataBean vedioData;
     private VedioAdapter vedioAdapter;
 
     @Override
@@ -55,17 +66,18 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
     protected void initView() {
 
         if (getIntent() != null) {
-            vedioData = (HomeBean.IssueListBean.ItemListBean.DataBean) getIntent().getSerializableExtra(Constant.PLAY_VEDIO_URL);
-            playVedioUrl = vedioData.getPlayUrl();
+            playVedioUrl = getIntent().getStringExtra(Constant.PLAY_VEDIO_URL);
+            playVedioTitle = getIntent().getStringExtra(Constant.PLAY_VEDIO_TITLE);
+            playVedioId = getIntent().getIntExtra(Constant.PLAY_VEDIO_ID, 0);
+            playVedioFeed = getIntent().getStringExtra(Constant.PLAY_VEDIO_FEED);
         }
 
-        if (null != vedioData) {
-            videoPlayer.setUp(playVedioUrl, true, vedioData.getTitle());
-        }
+        videoPlayer.setUp(playVedioUrl, true, playVedioTitle);
+
 
         srlAvdRefresh.setOnRefreshListener(this);
 
-        Glide.with(this).load(vedioData.getCover().getBlurred()).into(ivAvdBlur);
+        Glide.with(this).load(playVedioFeed).into(ivAvdBlur);
 
         vedioAdapter = new VedioAdapter(mDatas);
 
@@ -76,7 +88,7 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
         ImageView imageView = new ImageView(this);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         imageView.setImageResource(R.mipmap.ic_launcher);
-        Glide.with(this).load(vedioData.getCover().getFeed()).into(imageView);
+        Glide.with(this).load(playVedioFeed).into(imageView);
         videoPlayer.setThumbImageView(imageView);
         //增加title
         videoPlayer.getTitleTextView().setVisibility(View.VISIBLE);
@@ -119,14 +131,14 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
 
     @Override
     protected void initData() {
-        mPresenter.loadRelatedData(vedioData.getId());
+        mPresenter.loadRelatedData(playVedioId);
     }
 
 
     @Override
     public void onRefresh() {
-        if (vedioData != null)
-            mPresenter.loadRelatedData(vedioData.getId());
+        if (playVedioId != 0)
+            mPresenter.loadRelatedData(playVedioId);
     }
 
 

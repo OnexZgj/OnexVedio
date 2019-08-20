@@ -166,7 +166,11 @@ public class HomeFragment extends BaseFragment<HomePresnter> implements HomeCont
                 HomeBean.IssueListBean.ItemListBean.DataBean data=  ((List<HomeBean.IssueListBean.ItemListBean>)adapter.getData()).get(position).getData();
 
                 Intent intent=new Intent(getActivity(), VedioActivity.class);
-                intent.putExtra(Constant.PLAY_VEDIO_URL,data);
+                intent.putExtra(Constant.PLAY_VEDIO_URL,data.getPlayUrl());
+                intent.putExtra(Constant.PLAY_VEDIO_FEED,data.getCover().getBlurred());
+                intent.putExtra(Constant.PLAY_VEDIO_TITLE,data.getTitle());
+                intent.putExtra(Constant.PLAY_VEDIO_ID,data.getId());
+
                 startActivity(intent);
                 break;
         }

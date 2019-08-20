@@ -46,7 +46,23 @@ public class Constant {
     public static final String CATEGORY_NAME = "category_name";
 
     /**
+     * 播放视频的feed图形
+     */
+    public static final String PLAY_VEDIO_FEED = "play_vedio_feed";
+
+
+    /**
+     * 播放视频的标题
+     */
+    public static final String PLAY_VEDIO_TITLE = "play_vedio_title";
+
+    /**
+     * 播放视频的id
+     */
+    public static final String PLAY_VEDIO_ID = "play_vedio_id";
+
+    /**
      * 播放地址的URL标识
      */
-    public static String PLAY_VEDIO_URL = "play_vedio_url";
+    public static final String PLAY_VEDIO_URL = "play_vedio_url";
 }

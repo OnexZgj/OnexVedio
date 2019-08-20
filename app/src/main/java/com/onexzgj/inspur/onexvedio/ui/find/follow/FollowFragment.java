@@ -35,7 +35,7 @@ public class FollowFragment extends BaseFragment<FollowPresenter> implements Fol
     @Override
     protected void initView(View view) {
         mPresenter.loadFollowData();
-        mFollowAdapter = new FollowAdapter();
+        mFollowAdapter = new FollowAdapter(getActivity());
         rvFfFollow.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvFfFollow.setAdapter(mFollowAdapter);
 
