@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.ui.category.CategoryFragment;
 import com.onexzgj.inspur.onexvedio.ui.find.FindFragment;
-import com.onexzgj.inspur.onexvedio.ui.find.rank.RankFragment;
+import com.onexzgj.inspur.onexvedio.ui.rank.RankFragment;
 import com.onexzgj.inspur.onexvedio.ui.home.HomeFragment;
 import com.onexzgj.inspur.onexvedio.ui.me.MeFragment;
 import com.onexzgj.onexlibrary.base.BaseActivity;

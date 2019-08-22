@@ -145,7 +145,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
         parentHelper = new NestedScrollingParentHelper(this);
 
         guidanceViewHeight = dipToPx(context, GUIDANCE_VIEW_HEIGHT);
-        guidanceViewFlowHeight = guidanceViewHeight * (float)1.5;
+        guidanceViewFlowHeight = guidanceViewHeight * (float) 1.5;
 
         if (isInEditMode() && attrs == null) {
             return;
@@ -265,6 +265,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
     /**
      * Callback on TouchEvent.ACTION_CANCLE or TouchEvent.ACTION_UP
      * handler : refresh or loading
+     *
      * @param child : child view of SwipeLayout,RecyclerView or Scroller
      */
     @Override
@@ -275,9 +276,10 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * With child view to processing move events
-     * @param target the child view
-     * @param dx move x
-     * @param dy move y
+     *
+     * @param target   the child view
+     * @param dx       move x
+     * @param dy       move y
      * @param consumed parent consumed move distance
      */
     @Override
@@ -363,7 +365,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
             }
             headerView.setLayoutParams(lp);
             headerView.setProgressRotation(lp.height / guidanceViewFlowHeight);
-            headerView.setScale(lp.height/guidanceViewFlowHeight);
+            headerView.setScale(lp.height / guidanceViewFlowHeight);
             moveTargetView(lp.height);
             return true;
         } else if (!canChildScrollDown() && mPullLoadEnable && mCurrentAction == ACTION_LOADMORE) {
@@ -399,6 +401,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Adjust contentView(Scroller or List) at refresh or loading time
+     *
      * @param h Height of refresh view or loading view
      */
     private void moveTargetView(float h) {
@@ -421,7 +424,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
             if (lp.height >= guidanceViewHeight) {
                 startRefresh(lp.height);
                 if (onRefreshListener != null)
-                    onRefreshListener.onRefreshPulStateChange(1,START);
+                    onRefreshListener.onRefreshPulStateChange(1, START);
             } else if (lp.height > 0) {
                 resetHeaderView(lp.height);
             } else {
@@ -434,7 +437,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
             if (lp.height >= guidanceViewHeight) {
                 startLoadmore(lp.height);
                 if (onRefreshListener != null)
-                    onRefreshListener.onLoadmorePullStateChange(1,START);
+                    onRefreshListener.onLoadmorePullStateChange(1, START);
             } else if (lp.height > 0) {
                 resetFootView(lp.height);
             } else {
@@ -445,6 +448,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Start Refresh
+     *
      * @param headerViewHeight
      */
     private void startRefresh(int headerViewHeight) {
@@ -475,6 +479,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Reset refresh state
+     *
      * @param headerViewHeight
      */
     private void resetHeaderView(int headerViewHeight) {
@@ -510,6 +515,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Start loadmore
+     *
      * @param headerViewHeight
      */
     private void startLoadmore(int headerViewHeight) {
@@ -540,6 +546,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Reset loadmore state
+     *
      * @param headerViewHeight
      */
     private void resetFootView(int headerViewHeight) {
@@ -575,6 +582,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Whether child view can scroll up
+     *
      * @return
      */
     public boolean canChildScrollUp() {
@@ -597,6 +605,7 @@ public class SHSwipeRefreshLayout extends FrameLayout implements NestedScrolling
 
     /**
      * Whether child view can scroll down
+     *
      * @return
      */
     public boolean canChildScrollDown() {

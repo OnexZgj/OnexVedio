@@ -15,7 +15,7 @@ import butterknife.BindView;
 public class RankInfoFragment extends BaseFragment<RankInfoPresenter> implements RankInfoContract.View, SHSwipeRefreshLayout.SHSOnRefreshListener {
 
 
-    private static String mTag = "";
+    private String mTag = "";
     @BindView(R.id.rv_fri_rank)
     RecyclerView rvFriRank;
     @BindView(R.id.ssrl_fri_refresh)
@@ -47,6 +47,8 @@ public class RankInfoFragment extends BaseFragment<RankInfoPresenter> implements
 
         ssrlFriRefresh.setOnRefreshListener(this);
 
+        ssrlFriRefresh.setLoadmoreEnable(false);
+
         mAdapter = new RankInfoAdapter(getActivity());
 
         rvFriRank.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -63,12 +65,13 @@ public class RankInfoFragment extends BaseFragment<RankInfoPresenter> implements
 
     @Override
     public void showRankData(RankBean rankBean) {
+        ssrlFriRefresh.finishRefresh();
         mAdapter.setNewData(rankBean.getItemList());
     }
 
     @Override
     public void onRefresh() {
-
+        mPresenter.loadRankData(mTag);
     }
 
     @Override

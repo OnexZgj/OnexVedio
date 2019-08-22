@@ -6,7 +6,7 @@ import android.view.View;
 
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.ui.find.follow.FollowFragment;
-import com.onexzgj.inspur.onexvedio.ui.find.rank.RankFragment;
+import com.onexzgj.inspur.onexvedio.ui.rank.RankFragment;
 import com.onexzgj.inspur.onexvedio.utils.IndicatorLineUtil;
 import com.onexzgj.onexlibrary.base.BaseContract;
 import com.onexzgj.onexlibrary.base.BaseFragment;

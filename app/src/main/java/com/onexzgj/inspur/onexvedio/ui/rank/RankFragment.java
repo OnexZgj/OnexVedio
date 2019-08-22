@@ -1,15 +1,11 @@
-package com.onexzgj.inspur.onexvedio.ui.find.rank;
+package com.onexzgj.inspur.onexvedio.ui.rank;
 
-import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.onexzgj.inspur.onexvedio.R;
 import com.onexzgj.inspur.onexvedio.ui.find.FindAdapter;
-import com.onexzgj.inspur.onexvedio.ui.find.follow.FollowFragment;
 import com.onexzgj.inspur.onexvedio.ui.rankinfo.RankInfoFragment;
 import com.onexzgj.inspur.onexvedio.utils.IndicatorLineUtil;
 import com.onexzgj.onexlibrary.base.BaseContract;
@@ -18,8 +14,6 @@ import com.onexzgj.onexlibrary.base.BaseFragment;
 import java.util.ArrayList;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * 排行Fragment
@@ -67,7 +61,11 @@ public class RankFragment extends BaseFragment {
         vpFrVp.setAdapter(new FindAdapter(getChildFragmentManager(),fragments,tabList));
         tabFrLayout.setupWithViewPager(vpFrVp);
 
+
         IndicatorLineUtil.setIndicator(tabFrLayout, 40, 40);
+
+        vpFrVp.setOffscreenPageLimit(fragments.size());
+
     }
 
     @Override
