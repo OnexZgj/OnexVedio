@@ -72,11 +72,12 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
             playVedioFeed = getIntent().getStringExtra(Constant.PLAY_VEDIO_FEED);
         }
 
+        if (TextUtils.isEmpty(playVedioUrl))
         videoPlayer.setUp(playVedioUrl, true, playVedioTitle);
-
 
         srlAvdRefresh.setOnRefreshListener(this);
 
+        if (TextUtils.isEmpty(playVedioFeed))
         Glide.with(this).load(playVedioFeed).into(ivAvdBlur);
 
         vedioAdapter = new VedioAdapter(mDatas);
@@ -87,7 +88,7 @@ public class VedioActivity extends BaseMvpActivity<VedioActivityPresenter> imple
         //增加封面
         ImageView imageView = new ImageView(this);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setImageResource(R.mipmap.ic_launcher);
+        imageView.setImageResource(R.mipmap.bg);
         Glide.with(this).load(playVedioFeed).into(imageView);
         videoPlayer.setThumbImageView(imageView);
         //增加title

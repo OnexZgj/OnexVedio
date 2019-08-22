@@ -1,6 +1,5 @@
 package com.onexzgj.inspur.onexvedio;
 
-import android.animation.ObjectAnimator;
 import android.graphics.Typeface;
 import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;

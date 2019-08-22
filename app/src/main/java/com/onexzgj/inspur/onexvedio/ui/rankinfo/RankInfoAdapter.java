@@ -52,10 +52,10 @@ public class RankInfoAdapter extends BaseQuickAdapter<RankBean.ItemListBean,Base
                 Intent intent=new Intent(mActivity, VedioActivity.class);
 
 
-//                intent.putExtra(Constant.PLAY_VEDIO_URL,itemList.get(position).getData().getPlayUrl());
-//                intent.putExtra(Constant.PLAY_VEDIO_FEED,itemList.get(position).getData().getCover().getBlurred());
-//                intent.putExtra(Constant.PLAY_VEDIO_TITLE,itemList.get(position).getData().getTitle());
-//                intent.putExtra(Constant.PLAY_VEDIO_ID,itemList.get(position).getData().getId());
+                intent.putExtra(Constant.PLAY_VEDIO_URL,tags.get(position).getActionUrl());
+                intent.putExtra(Constant.PLAY_VEDIO_FEED,tags.get(position).getBgPicture());
+                intent.putExtra(Constant.PLAY_VEDIO_TITLE,tags.get(position).getName());
+                intent.putExtra(Constant.PLAY_VEDIO_ID,tags.get(position).getId());
 
                 mActivity.startActivity(intent);
 
